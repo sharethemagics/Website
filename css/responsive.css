@@ -1,17 +1,71 @@
 /* lg */ 
 @media (min-width: 1200px) {
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 15px;
+		right: 15px;
+		top: 5px;
+		bottom:15px;
+		background-color: rgba(66, 152, 182, 0.9);
+		overflow: hidden;
+		transition: .8s ease;
+		width: 91%;
+		height:0;
+		
+	  }
+	  
+	  .abtus:hover .overlay {
+		bottom: 0;
+		height: 94%;
+	  }
 
-	
 
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
-	
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 15px;
+		right: 15px;
+		top: 5px;
+		bottom:15px;
+		background-color: rgba(66, 152, 182, 0.9);
+		overflow: hidden;
+		width: 91%;
+		height:0;
+		transition: .8s ease;
+	  }
+	  
+	  .abtus:hover .overlay {
+		bottom: 0;
+		height: 94%;
+	  }
 }
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 8px;
+		right: 15px;
+		top: -2px;
+		bottom:5px;
+		background-color: rgba(66, 152, 182, 0.9);
+		overflow: hidden;
+		width: 94%;
+		height:0;
+		transition: .8s ease;
+	  }
+	  
+	  .abtus:hover .overlay {
+		bottom: 0;
+		height: 98%;
+	  }
+
  	.navbar-right li a {
 		font-size: 12px;
 		padding-right: 10px;
@@ -32,10 +86,46 @@
 	.btn-signup {
 		padding: 10px 20px;
 	}
+
+	.abtus {
+		margin: auto auto;
+		padding: 8px 8px;
+		width: 260px;
+		margin-left: 25px;
+		margin-right: 25px;
+		
+	  }
+	
 }
 
 /* xs */
 @media (max-width: 767px) {
+
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 8px;
+		right: 15px;
+		top: -2px;
+		bottom:5px;
+		background-color: rgba(66, 152, 182, 0.9);
+		overflow: hidden;
+		width: 95.5%;
+		height:0;
+		transition: .8s ease;
+	  }
+	  
+	  .abtus:hover .overlay {
+		bottom: 0;
+		height: 98.3%;
+	  }
+
+	.abtus {
+		margin: auto auto;
+		padding: 8px 8px;
+		width: 350px;
+		
+	  }
 	body {
 		font-size: 14px;
 	}
