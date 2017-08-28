@@ -15,7 +15,7 @@
 		
 	  }
 	  
-	  .abtus:hover .overlay {
+	  .team-sub:hover .overlay {
 		bottom: 0;
 		height: 94%;
 	  }
@@ -25,6 +25,9 @@
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+#about .img-responsive{
+	height: 420px;
+}
 	.overlay {
 		position: absolute;
 		bottom: 95%;
@@ -39,7 +42,7 @@
 		transition: .8s ease;
 	  }
 	  
-	  .abtus:hover .overlay {
+	  .team-sub:hover .overlay {
 		bottom: 0;
 		height: 94%;
 	  }
@@ -64,7 +67,7 @@
 		transition: .8s ease;
 	  }
 	  
-	  .abtus:hover .overlay {
+	  .team-sub:hover .overlay {
 		bottom: 0;
 		height: 98%;
 	  }
@@ -90,7 +93,7 @@
 		padding: 10px 20px;
 	}
 
-	.abtus {
+	.team-sub {
 		margin: auto auto;
 		padding: 8px 8px;
 		width: 260px;
@@ -118,12 +121,12 @@
 		transition: .8s ease;
 	  }
 	  
-	  .abtus:hover .overlay {
+	  .team-sub:hover .overlay {
 		bottom: 0;
 		height: 98.3%;
 	  }
 
-	.abtus {
+	.team-sub {
 		margin: auto auto;
 		padding: 8px 8px;
 		width: 350px;

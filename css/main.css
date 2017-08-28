@@ -468,21 +468,12 @@ header .inbody .navbar-brand span.subhead {
 /************************services******************************/
 /*************************************************************/
 
-.fh5co-section-heading{
-  
+.service-heading{
   padding-top: 15px;
   padding-bottom: 30px;
-
-}
-#fh5co-features {
-  border-bottom: 1px solid #f2f2f2;
-  
-  background: #fafafa;
-  position: relative;
-  
 }
 
-.fh5co-feature, .fh5co-figure {
+.services{
   display: block;
   color: #444;
   float: left;
@@ -499,12 +490,12 @@ header .inbody .navbar-brand span.subhead {
   transition: 0.5s;
   margin-bottom: 1.5em;
 }
-.fh5co-feature:hover, .fh5co-feature:focus, .fh5co-feature:active, 
-.fh5co-figure:hover, .fh5co-figure:focus, .fh5co-figure:active {
+.services:hover, .services:focus, .services:active, 
+ {
   text-decoration: none;
   outline: none;
 }
-.fh5co-feature .fh5co-feature-icon, .fh5co-figure .fh5co-feature-icon {
+.services .services-icon,  .services-icon {
   width: 80px;
   height: 80px;
   display: block;
@@ -521,50 +512,43 @@ header .inbody .navbar-brand span.subhead {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.fh5co-feature .fh5co-feature-icon i, .fh5co-figure .fh5co-feature-icon i {
+.services .services-icon i, .services-icon i {
   display: table-cell;
   vertical-align: middle;
   font-size: 50px;
   color: #14e1e4;
 }
-.fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, 
-.fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
+.services .tenets-services{
   font-size: 12px;
   letter-spacing: 2px;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
-.fh5co-feature .fh5co-feature-text, .fh5co-feature .fh5co-figure-text,
-.fh5co-figure .fh5co-feature-text, .fh5co-figure .fh5co-figure-text {
+.services .service-description {
   color: #919191;
   padding-left: 20px;
   padding-right: 20px;
   line-height: 24px;
 }
-.fh5co-feature:hover, .fh5co-feature.active, .fh5co-figure:hover, 
-.fh5co-figure.active {
+.services:hover, .services.active {
   -webkit-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   -ms-box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15);
   margin-top: -10px;
-  
-
-border-bottom: 2px solid #14e1e4;
-
+  border-bottom: 2px solid #14e1e4;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-feature:hover, .fh5co-feature.active, .fh5co-figure:hover, .fh5co-figure.active {
+  .services:hover, .services.active,  {
     margin-top: 0px;
   }
 }
-.fh5co-feature:hover .fh5co-feature-icon, .fh5co-feature.active .fh5co-feature-icon,
-.fh5co-figure:hover .fh5co-feature-icon, .fh5co-figure.active .fh5co-feature-icon {
+.services:hover .services-icon, .services.active .services-icon
+  {
   background: #14e1e4;
 }
-.fh5co-feature:hover .fh5co-feature-icon i, .fh5co-feature.active .fh5co-feature-icon i,
-.fh5co-figure:hover .fh5co-feature-icon i, .fh5co-figure.active .fh5co-feature-icon i {
+.services:hover .services-icon i, .services.active .services-icon i {
   color: #fff;
 }
 
@@ -638,7 +622,7 @@ section {
 *********************team section***************************
 *************************************************************/
 
-.abtus img {
+.team-sub img {
   display: block;
   height: 100%;
   width: 100%;
@@ -648,13 +632,13 @@ section {
   box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.35);
   margin-top: -10px;
 }
-.abtmn{
+.team-main{
   margin:10px 0px;
   position: relative;
   
 }
 
-.abtus {
+.team-sub {
   margin: auto auto;
   padding: 15px 15px;
   width: 330px;
@@ -666,17 +650,18 @@ section {
   padding-top:47px;
 }
 
-.abtmn h3{
+.team-main h3{
   text-align: center;
   font-weight: bold;
   padding-bottom: 15px;
 }
 
 .text {
-  white-space: nowrap; 
+  text-align: center;
   color: white;
-  font-size: 20px;
-  position: absolute;
+
+  font-size: 15px;
+  position: relative;
   overflow: hidden;
   top: 50%;
   left: 50%;
@@ -703,33 +688,31 @@ section {
 #contact-us {
   background-image:url(../images/bg/contact-us.jpg);
   padding-bottom: 90px; 
-  
 }
 
-
-.info {
+.connect {
   max-width: 250px;
   margin: 0 auto;
   padding: 5px 0 5px;
 }
 
-.info .icon > i {
+.connect .icon > i {
   font-size: 4.4em;
 }
 
-.info .info-title {
+.connect .contact-us-heading {
   color: #cac5c5;
   margin: 15px 0 5px;
   font-size: 22px;
 }
 
-.info p {
+.connect p {
   color: #cac5c5;
   font-size: 10px;
   line-height: 18px !important;
 }
 
-.info-horizontal .icon {
+.connect-info .icon {
   float: left;
   margin-top: 24px;
   margin-right: 20px;
@@ -737,7 +720,7 @@ section {
 }
 
 
-.info-horizontal .description {
+.connect-info .description {
   overflow: hidden;
 }
 
