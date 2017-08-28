@@ -113,7 +113,7 @@ h3 {
 .parallax h4,
 .parallax h5,
 .parallax h6 {
-  color: #fff;
+  color: #cac5c5;
 }
 
 .parallax input[type="text"],
@@ -196,7 +196,7 @@ section {
 /**********************Nav bar ***********************/
 /*****************************************************/
 .navbar-right li a {
-  color: #00CED1;
+  color: #14e1e4;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -205,6 +205,9 @@ section {
   color: white
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #cac5c5;
+}
 .navbar-right li.active a {
   background-color:  rgba(0,0,0,.2);
 }
@@ -231,9 +234,9 @@ header .navbar-default .navbar-nav a:hover {
 }
 
 header .navbar-default .navbar-nav .active a {
-  color: #00CED1;
+  color: #14e1e4;
   background: transparent;
-  border-bottom: 2px solid #00CED1;
+  border-bottom: 2px solid #14e1e4;
   text-shadow: none;
 }
 
@@ -509,7 +512,7 @@ header .inbody .navbar-brand span.subhead {
   text-align: center;
   margin: 0 auto;
   position: relative;
-  border: 2px solid #4fd2c2;
+  border: 2px solid #14e1e4;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -522,7 +525,7 @@ header .inbody .navbar-brand span.subhead {
   display: table-cell;
   vertical-align: middle;
   font-size: 50px;
-  color: #4fd2c2;
+  color: #14e1e4;
 }
 .fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, 
 .fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
@@ -548,7 +551,7 @@ header .inbody .navbar-brand span.subhead {
   margin-top: -10px;
   
 
-border-bottom: 2px solid #3dc9b3;
+border-bottom: 2px solid #14e1e4;
 
 }
 @media screen and (max-width: 768px) {
@@ -558,7 +561,7 @@ border-bottom: 2px solid #3dc9b3;
 }
 .fh5co-feature:hover .fh5co-feature-icon, .fh5co-feature.active .fh5co-feature-icon,
 .fh5co-figure:hover .fh5co-feature-icon, .fh5co-figure.active .fh5co-feature-icon {
-  background: #4fd2c2;
+  background: #14e1e4;
 }
 .fh5co-feature:hover .fh5co-feature-icon i, .fh5co-feature.active .fh5co-feature-icon i,
 .fh5co-figure:hover .fh5co-feature-icon i, .fh5co-figure.active .fh5co-feature-icon i {
@@ -622,9 +625,12 @@ border-bottom: 2px solid #3dc9b3;
   color: #14E1E4;
 }
 
-.tab-content a:hover, .tab-content a:link {
-  color: #FF0;
-  text-decoration: none;
+section {
+  padding: 20px 0px;
+}
+
+.col-md-4 {
+  height: 350px;
 }
 
 
@@ -687,6 +693,9 @@ border-bottom: 2px solid #3dc9b3;
   padding-bottom: 0;
 }
 
+.form-group button{
+  font-weight: 600;
+}
 #google-map {
   height: 350px;
 }
@@ -695,6 +704,50 @@ border-bottom: 2px solid #3dc9b3;
   background-image:url(../images/bg/contact-us.jpg);
   padding-bottom: 90px; 
   
+}
+
+
+.info {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 5px 0 5px;
+}
+
+.info .icon > i {
+  font-size: 4.4em;
+}
+
+.info .info-title {
+  color: #cac5c5;
+  margin: 15px 0 5px;
+  font-size: 22px;
+}
+
+.info p {
+  color: #cac5c5;
+  font-size: 10px;
+  line-height: 18px !important;
+}
+
+.info-horizontal .icon {
+  float: left;
+  margin-top: 24px;
+  margin-right: 20px;
+  width: 20%;
+}
+
+
+.info-horizontal .description {
+  overflow: hidden;
+}
+
+
+.contact-form .col-md-4 {
+height: 400px;
+}
+
+#main-contact-form p{
+padding-left: 15px;
 }
 
 #contact-us .heading {
@@ -846,4 +899,5 @@ ul.address {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
 

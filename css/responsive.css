@@ -7,7 +7,7 @@
 		right: 15px;
 		top: 5px;
 		bottom:15px;
-		background-color: rgba(66, 152, 182, 0.9);
+		background-color: rgba(20, 225, 228, 0.95);
 		overflow: hidden;
 		transition: .8s ease;
 		width: 91%;
@@ -32,7 +32,7 @@
 		right: 15px;
 		top: 5px;
 		bottom:15px;
-		background-color: rgba(66, 152, 182, 0.9);
+		background-color: rgba(20, 225, 228, 0.95);
 		overflow: hidden;
 		width: 91%;
 		height:0;
@@ -47,6 +47,9 @@
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
+	.col-sm-6 {
+        height: 280px
+      }
 	.overlay {
 		position: absolute;
 		bottom: 95%;
@@ -54,7 +57,7 @@
 		right: 15px;
 		top: -2px;
 		bottom:5px;
-		background-color: rgba(66, 152, 182, 0.9);
+		background-color: rgba(20, 225, 228, 0.95);
 		overflow: hidden;
 		width: 94%;
 		height:0;
@@ -108,7 +111,7 @@
 		right: 15px;
 		top: -2px;
 		bottom:5px;
-		background-color: rgba(66, 152, 182, 0.9);
+		background-color: rgba(20, 225, 228, 0.95);
 		overflow: hidden;
 		width: 95.5%;
 		height:0;

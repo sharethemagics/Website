@@ -18,19 +18,7 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="images/favicon.ico">
   <style>
-    .col-md-4 {
-      height: 350px;
-    }
-
-    @media only screen and (max-width:991px) and (min-width:768px) {
-      .col-sm-6 {
-        height: 280px
-      }
-    }
-
-    section {
-      padding: 20px 0px;
-    }
+    
   </style>
 </head>
 <!--/head-->
@@ -190,8 +178,8 @@
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" role="tablist">
             <li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">ABOUT US </a></li>
-            <li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">FOCUS</a></li>
-            <li><a href="#social" aria-controls="social" role="tab" data-toggle="tab">EFFORTS</a></li>
+            <li><a href="#focus" aria-controls="mobile" role="tab" data-toggle="tab">FOCUS</a></li>
+            <li><a href="#efforts" aria-controls="social" role="tab" data-toggle="tab">EFFORTS</a></li>
           </ul>
           <!-- tab panes -->
           <div class="tab-content">
@@ -202,12 +190,12 @@
               <p>It possesses not only the latest technology gadgets but also the most knowledgeable and experience hands to
                 offer most user friendly customized solutions.</p>
             </div>
-            <div role="tabpanel" class="tab-pane" id="mobile">
+            <div role="tabpanel" class="tab-pane" id="focus">
               <p>We are highly experienced in offering software development and Website Design. </p>
               <p>Some of our services include System Integration & Software Development, E-commerce software development, Content
                 management development, Web application development, E-Commerce development, Database application development.</p>
             </div>
-            <div role="tabpanel" class="tab-pane" id="social">
+            <div role="tabpanel" class="tab-pane" id="efforts">
               <p>Our efforts focus on concept, design, development and re-engineering of web businesses.</p>
               <p>Efforts on to design and develop complex data structures and tools that would be helpful for companies to track
                 and analyze purchase decisions instantly for marketing intelligence systems.</p>
@@ -285,32 +273,60 @@
         <div class="row">
           <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
             <h2>Contact Us</h2>
-            <p>For any queries mail us @ info@tenetstech.com</p>
           </div>
         </div>
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <p>You are welcome to visit us in person.</p>
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> Address:</span> coimbatore,TN </li>
-                  <li><i class="fa fa-phone"></i> <span> Phone:</span> +928 336 2000 </li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:tenetstech@gmail.com"> info@tenetstech.com</a></li>
-                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.tenetstech.com</a></li>
-                </ul>
-              </div>
+            <div class="row">
+            <div class="col-md-4">
+                <div class="info info-horizontal">
+                    <div class="icon icon-primary">
+                        <img src="images/svg/map.svg" alt="icon" class="img-responsive">
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Find our office</h4>
+                        <p>
+                            11/82C Sriram nagar,
+                            <br>Podanur,
+                            <br>Coimbatore, TN, India
+                        </p>
+                    </div>
+                </div>
+                <div class="info info-horizontal">
+                    <div class="icon icon-primary">
+                        <img src="images/svg/phone.svg" alt="icon" class="img-responsive">
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Call us</h4>
+                        <p> +91-95001-56109<br>
+                            +91-82206-44609
+                        </p>
+                    </div>
+                </div>
+                <div class="info info-horizontal">
+                    <div class="icon icon-primary">
+                        <img src="images/svg/email.svg" alt="icon" class="img-responsive">
+                    </div>
+                    <div class="description">
+                        <h4 class="info-title">Email us</h4>
+                        <p>
+                            info@tenets.com
+                            <br> www.tenetstech.com
+                            
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-6">
+          
+            <div class="col-md-6 col-md-offset-1">
               <form id="main-contact-form" name="contact-form" method="post" action="#">
                 <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <p> Drop us your details we will get back to you. </p>
-                  <div class="col-sm-6">
+                  <p>Drop us your details we will get back to you. </p>
+                  <div class="col-sm-5">
                     <div class="form-group">
                       <input type="text" name="name" class="form-control" placeholder="Name" required>
                     </div>
                   </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-7">
                     <div class="form-group">
                       <input type="email" name="email" class="form-control" placeholder="Email Address" required>
                     </div>
@@ -338,15 +354,13 @@
     <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
       <div class="container text-center">
         <div class="footer-logo">
-          <a href="index-Copy.html"><img class="img-responsive" src="images/logo2.png" alt=""></a>
+          <a href="#home"><img class="img-responsive" src="images/logo2.png" alt=""></a>
         </div>
         <div class="social-icons">
           <ul>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/TenetsTech" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/Tenets-Technologies-145338392723590/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="https://www.linkedin.com/in/tenets-technologies-160738146/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
       </div>
