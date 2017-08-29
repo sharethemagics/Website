@@ -321,7 +321,7 @@
                 </div>
                 <div class="description">
                   <h4 class="contact-us-heading">Call us</h4>
-                  <p> +91-95001-56109<br> +91-82206-44609
+                  <p> +1 001 001 001
                   </p>
                 </div>
                 <!--description-->
@@ -345,7 +345,7 @@
             <!--col-md-4-->
 
             <div class="col-md-6 col-md-offset-1">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
+              <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
                 <div class="row wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
                   <p>Drop us your details we will get back to you. </p>
                   <div class="col-sm-5">
@@ -399,10 +399,24 @@
     </div>
 
   </footer>
-
+  <script>
+      function initMap() {
+        var uluru = {lat: 10.955114, lng: 76.991600};
+        
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
   <script type="text/javascript" src="js/jquery.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJFTbJ3ZkwMMWsKSxW7qYQHUlrcH8Exp4&callback=initMap"
+  type="text/javascript"></script>
   <script type="text/javascript" src="js/jquery.inview.min.js"></script>
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
   <script type="text/javascript" src="js/wow.min.js"></script>
