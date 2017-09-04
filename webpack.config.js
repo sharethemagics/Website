@@ -8,11 +8,14 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     context: __dirname + '/src',
     entry: {
-        app: './webpack.js'
+        home: './js/webpack/home.js',
+        bposervice: './js/webpack/bpo-service.js'
+        
     },
     output: {
         path: __dirname + '/dist',
-        filename: 'bundle.js'
+        filename:"[name].bundle.js",
+        chunkFilename: "[id].chunk.js"
     },
     module: {
         rules: [{
@@ -85,11 +88,25 @@ module.exports = {
             Popper: ['popper.js', 'default']
         }),
         new webpack.HotModuleReplacementPlugin(),
-        new ExtractTextPlugin("styles.css"),
+        
         new htmlWebPackPlugin({
-            template:'index.html'
+            template:'html/index.html',
+            hash:true,
+            chunks:['home','commons'],
+            filename:'index.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/bpo-service.html',
+            hash:true,
+            chunks:['bposervice','commons'],
+            filename:'bpo-service.html'
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),
-        new CopyWebpackPlugin ([{from: 'js/wow.min.js'}])
+        new CopyWebpackPlugin ([{from: 'js/wow.min.js'}]),
+        new webpack.optimize.CommonsChunkPlugin({
+			filename: "commons.js",
+			name: "commons"
+        }),
+        new ExtractTextPlugin("[name].styles.css"),
     ]
 }
