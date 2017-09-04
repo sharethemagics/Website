@@ -738,7 +738,7 @@ padding-left: 15px;
 }
 
 .form-control {
-  background-color: transparent;
+  background-color: transparent ;
   border-color: rgba(255,255,255,.1);
   height: 50px;
   border-radius: 0;

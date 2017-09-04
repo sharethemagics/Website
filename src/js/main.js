@@ -1,7 +1,9 @@
+//import WOW from 'wow.js/dist/wow.js';
 jQuery(function($) {
 	//Preloader
 	var preloader = $('.preloader');
-	$(window).load(function(){
+
+	$(window).on('load',function(){
 		preloader.remove();
 		
 	
@@ -90,9 +92,10 @@ if(hash !== '#home') {
 	});
 
 	//Google Map
-	
+
+//new	WOW.init();
 
 	
-	new WOW().init();
+//	new WOW().init();
 });
 
