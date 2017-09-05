@@ -9,7 +9,8 @@ module.exports = {
     context: __dirname + '/src',
     entry: {
         home: './js/webpack/home.js',
-        bposervice: './js/webpack/bpo-service.js'
+        bposervice: './js/webpack/bpo-service.js',
+        vendor:'./js/webpack/vendor.js'
         
     },
     output: {
@@ -92,13 +93,13 @@ module.exports = {
         new htmlWebPackPlugin({
             template:'html/index.html',
             hash:true,
-            chunks:['home','commons'],
+            chunks:['vendor','commons', 'home'],
             filename:'index.html'
         }),
         new htmlWebPackPlugin({
             template:'html/bpo-service.html',
             hash:true,
-            chunks:['bposervice','commons'],
+            chunks:['vendor','bposervice','commons'],
             filename:'bpo-service.html'
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),

@@ -205,6 +205,15 @@ section {
   color: white
 }
 
+.scroll>.active{
+  background-color: none!important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background-color: transparent;
+  color: #14e1e4;
+  
+}
+
 .navbar-default .navbar-nav>li>a {
   color: #cac5c5;
 }
@@ -278,6 +287,11 @@ header .inbody .navbar-brand span.subhead {
   display: none;
 }
 
+/*******Nav bar drop down***/
+.dropdown-menu {
+  
+  border: 0;
+}
 
 
 /****************************************************
