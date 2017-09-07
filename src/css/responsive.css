@@ -323,5 +323,15 @@
 		width:100%;
 		float: none;
 	}
+	#home-slider .caption{
+		font-size: 13px;
+	}
+	#home-slider .caption h1{
+		font-size:35px;
+	}
+	.icon-scroll {
+		width :35px;
+		height: 60px;
+	}
 }
 

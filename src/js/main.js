@@ -8,10 +8,26 @@ jQuery(function($) {
 		
 	
 	});
+	$(".nav > li:has(ul)").addClass("drop fadeInUp");
+	$(".nav > li.drop > ul").addClass("dropdown fadeInUp");
+	$(".nav > li.drop > ul.dropdown ul").addClass("sup-dropdown fadeInUp");
+
+	$(document).ready(function(){
+    $('.wpb-mobile-menu').slicknav({
+      prependTo: '.navbar-header',
+      parentTag: 'jobs',
+			allowParentLinks: true,
+		
+      duplicate: true,
+      label: '',
+      closedSymbol: '<i class="fa fa-angle-right"></i>',
+      openedSymbol: '<i class="fa fa-angle-down"></i>',
+    });
+	});
 	
 	//smooth sroll
 	$("a").on('click', function(event) {
-		
+		console.log("a click");
 				// Make sure this.hash has a value before overriding default behavior
 				if (this.hash !== "") {
 					// Prevent default anchor click behavior
@@ -31,7 +47,27 @@ jQuery(function($) {
 					});
 				} // End if
 	});
-
+	$('a[role="menuitem"]').on('click', function(event) {
+		console.log("a click");
+				// Make sure this.hash has a value before overriding default behavior
+				if (this.hash !== "") {
+					// Prevent default anchor click behavior
+					event.preventDefault();
+		
+					// Store hash
+					var hash = this.hash;
+		
+					// Using jQuery's animate() method to add smooth page scroll
+					// The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 800, function(){
+			 
+						// Add hash (#) to URL when done scrolling (default click behavior)
+						window.location.hash = hash;
+					});
+				} // End if
+	});
 	//#main-slider
 	var slideHeight = $(window).height();
 	$('#home-slider .item').css('height',slideHeight);
@@ -60,7 +96,7 @@ if(hash !== '#home') {
   // Add an inbody class to nav when scrollspy event fires
   $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
 	var hash = $(this).find('li.active a').attr('href');
-	
+	console.log("mini");
     if(hash !== '#home') {
       $('header nav').addClass('inbody');
     } else {
@@ -68,6 +104,15 @@ if(hash !== '#home') {
     }
 	});
 	
+	$('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
+		var hash = $(this).find('li.active a').attr('href');
+		console.log("mini");
+			if(hash !== '#home') {
+				$('header nav').addClass('inbody');
+			} else {
+				$('header nav').removeClass('inbody');
+			}
+		});
 
 	// Contact form
 	var form = $('#main-contact-form');

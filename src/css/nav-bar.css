@@ -1,0 +1,301 @@
+.navbar-default .navbar-nav .dropdown {
+  background: rgba(6, 5, 5,0.8);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+  left: 0;
+  border-radius: 3px;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  top: 115%;
+  transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  visibility: hidden;
+  width: 180px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 999;
+  list-style-type: none;
+
+}
+
+.navbar-default .navbar-nav .dropdown:before {
+  position: absolute;
+  top: -6px;
+  left: 22px;
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0px 8px 7px;
+  border-color: transparent transparent #080808;
+  box-sizing: border-box;
+}
+.navbar-default .navbar-nav > li.drop:hover .dropdown {
+  visibility: visible;
+  opacity: 1;
+}
+.dropdown li a.active,
+.sup-dropdown li a.active {
+  color: #14E1E4;
+}
+.dropdown > li:hover > a,
+.sup-dropdown li:hover > a {
+  color:#64bb43 ;
+}
+.dropdown li,
+.sup-dropdown li {
+  position: relative;
+}
+.dropdown li a,
+.sup-dropdown li a {
+  display: block;
+  color: rgb(210, 210, 202);
+  margin-bottom: 2px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  line-height: 26px;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.dropdown li a i {
+  float: right;
+  font-size: 17px;
+  position: relative;
+  top: -1px;
+  margin: 4px 5px;
+  
+}
+.navbar-default .navbar-nav .sup-dropdown {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  border-radius: 2px;
+  
+  padding: 12px;
+  width: 195px;
+  background-color: #fff;
+  margin-left: 10px;
+  z-index: 3;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.08);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 0 0;
+  transform-origin: 0 0 0;
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.navbar-default .navbar-nav li.drop .dropdown li:hover .sup-dropdown {
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  z-index: 9999;
+}
+
+
+header .navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+  color: rgb(248, 244, 244);
+  
+}
+.navbar-nav li.scroll>a {
+  color: #14e1e4;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 20px ;
+  padding-bottom: 20px;
+  color: rgb(248, 244, 244);
+}
+
+header .inbody .navbar-nav li.scroll>a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size:12px;
+}
+
+header .inbody {
+  background-color: black;
+box-shadow: 0px 4px 8px 0px rgba(58, 57, 57, 0.08);
+opacity: 0.9;
+border:none;
+}
+header .navbar .inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand h1 {
+  margin-top: 5px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color: #64bb43 ;
+}
+
+header .navbar-default .navbar-nav .scroll.active>a {
+  color: #14e1e4;
+  border-bottom: 2px solid #14e1e4;
+  text-shadow: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+  background-color: transparent;
+}
+header .navbar-default .navbar-nav .active a:hover {
+  color: #64bb43 ;
+  background: transparent;
+  text-shadow: none;
+}
+
+
+header .inbody .navbar-brand {
+  background-size: 43px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: 10px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1em;
+  
+}
+
+header .inbody .navbar-brand span.subhead {
+  display: none;
+}
+
+
+/*******************Side/ mobile menu*******/
+
+
+.wpb-mobile-menu {
+  display: none;
+}
+.wpb-mobile-menu ul li > ul {
+  padding: 0;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  border-color: transparent;
+}
+
+.wpb-mobile-menu ul li > ul > li > a:hover,
+.wpb-mobile-menu ul li > ul > li > a .active {
+  background: #ecf0f1;
+}
+.wpb-mobile-menu ul li > ul > li.active > a {
+  background: #ecf0f1;
+}
+
+.wpb-mobile-menu {
+  display: none;
+}
+.wpb-mobile-menu ul li > ul {
+  padding: 0;
+  border-style: solid;
+  border-width: 4px 0 0 0;
+  border-radius: 0;
+  left: 0;
+  right: 0;
+  border-color: transparent;
+}
+.wpb-mobile-menu ul li > ul > li > a {
+  color: #666;
+  padding: 10px 0 10px 15px;
+}
+.wpb-mobile-menu ul li > ul > li > a:hover,
+.wpb-mobile-menu ul li > ul > li > a .active {
+  background: #ecf0f1;
+}
+.wpb-mobile-menu ul li > ul > li.active > a {
+  background: #ecf0f1;
+}
+.slicknav_menu {
+  display: none;
+  background: rgba(58, 57, 57, 0.08);
+  font-size: 13px;
+  padding-top: 10px;
+}
+.slicknav_nav .slicknav_row,  .slicknav_nav jobs:hover{
+  background-color : transparent!important;
+  
+  padding: 5px 5px 5px 5px;
+  margin: 0;
+  text-align: left;
+}
+.slicknav_arrow{
+  float: right;
+  color:white;
+
+}
+
+.slicknav_nav jobs,
+.slicknav_nav a{
+    padding-right: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 2px 15px 2px 5px;
+    margin: 0;
+}
+.slicknav_nav {
+
+  padding-top: 10px!important;
+  background: rgba(58, 57, 57, 0.8);
+}
+
+.slicknav_nav .slicknav_parent-link a{
+  padding-right: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  padding: 2px 15px 2px 10px;
+  margin: 0;
+}
+
+.slicknav_nav jobs:hover,
+ .slicknav_nav a:hover{
+background-color : transparent!important;
+color:#14e1e4!important;
+}
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    position: absolute;
+    top: 0;
+    height: 50px;
+    width: 150px;
+  }
+  /* #menu is the original menu */
+  .slicknav_menu {
+    display: block;
+      }
+
+  .slicknav_menu .img-responsive {
+      height: 50px;
+      width: 150px;
+  }
+
+   .navbar-toggle {
+    display: none;
+  }
+ 
+}
+
+.slicknav_btn {
+  background: rgba(58, 57, 57, 0.08)!important;
+}
