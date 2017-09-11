@@ -5,3 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/animate.css';
 import '../../js/slicknav.min.js';
 import '../../css/slicknav.min.css';
+
+import '../../css/responsive.css';
+import '../../css/nav-bar.css';

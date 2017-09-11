@@ -1,7 +1,4 @@
-import '../../css/main.css';
 import '../../css/home.css';
-import '../../css/responsive.css';
-import '../../css/nav-bar.css';
 
 import '../main.js';
 

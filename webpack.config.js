@@ -10,6 +10,7 @@ module.exports = {
     entry: {
         home: './js/webpack/home.js',
         bposervice: './js/webpack/bpo-service.js',
+        webdevelopment:'./js/webpack/web-development.js',
         vendor:'./js/webpack/vendor.js'
         
     },
@@ -101,6 +102,12 @@ module.exports = {
             hash:true,
             chunks:['vendor','bposervice','commons'],
             filename:'bpo-service.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/web-development.html',
+            hash:true,
+            chunks:['vendor','webdevelopment','commons'],
+            filename:'web-development.html'
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),
         new CopyWebpackPlugin ([{from: 'js/wow.min.js'}]),
