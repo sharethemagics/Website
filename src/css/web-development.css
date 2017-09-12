@@ -1,0 +1,59 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    position: relative;
+  }
+
+.image-sub{
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../images/bg/sd.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: auto;
+  padding-top: 10px;
+  opacity: 1;
+} 
+
+.image-sub .caption {
+  position: absolute;
+  top: 200px;
+  margin-top: -104px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 15;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(237, 237, 237);
+}
+.image-sub .caption h3 {
+  color: rgb(185, 179, 179);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.image-sub .caption h3 b {
+  color: white;
+}
+.nav-sub-page{
+  padding: 10px 5px 10px 15px;
+  background-color: rgb(234, 225, 225, 0.8);
+}
+
+p{
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:1.2em;
+}
+
+@media (min-width: 350px) and (max-width: 600px) {
+  .image-sub .caption h3 {
+    font-size:16px;
+  }
+  .image-sub .caption {
+    font-size: 14px;
+  }
+
+}

@@ -1,3 +1,3 @@
 import '../../css/web-development.css';
 
-import '../../js/web-development.js';
+import '../web-development.js';
