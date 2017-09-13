@@ -117,7 +117,7 @@ header .navbar-default {
   color: #14e1e4;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 20px ;
   padding-bottom: 20px;
   color: rgb(248, 244, 244);
@@ -400,3 +400,49 @@ color:#14e1e4!important;
 {
   background: #000;	
 }
+
+/***Sub page heading picture**/
+
+
+
+.image-sub .caption {
+position: absolute;
+top: 230px;
+margin-top: -104px;
+left: 0;
+right: 0;
+text-align: center;
+z-index: 15;
+font-size: 18px;
+font-weight: 300;
+color: rgb(237, 237, 237);
+
+}
+.image-sub .caption h3 {
+color: rgb(185, 179, 179);
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 15px;
+
+}
+.image-sub .caption h3 b {
+color: white;
+
+}
+
+.nav-sub-page{
+padding: 10px 5px 10px 35px;
+
+}
+
+
+@media (min-width: 350px) and (max-width: 600px) {
+.image-sub .caption h3 {
+  font-size:16px;
+}
+.image-sub .caption {
+  font-size: 14px;
+}
+
+}
+

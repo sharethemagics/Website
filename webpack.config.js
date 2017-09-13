@@ -11,6 +11,7 @@ module.exports = {
         home: './js/webpack/home.js',
         bposervice: './js/webpack/bpo-service.js',
         webdevelopment:'./js/webpack/web-development.js',
+        softwaredevelopment:'./js/webpack/software-development.js',
         vendor:'./js/webpack/vendor.js'
         
     },
@@ -102,6 +103,12 @@ module.exports = {
             hash:true,
             chunks:['vendor','bposervice','commons'],
             filename:'bpo-service.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/software-development.html',
+            hash:true,
+            chunks:['vendor','softwaredevelopment','commons'],
+            filename:'software-development.html'
         }),
         new htmlWebPackPlugin({
             template:'html/web-development.html',
