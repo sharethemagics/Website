@@ -11,7 +11,7 @@
 		background-color: rgba(20, 225, 228, 0.95);
 		overflow: hidden;
 		transition: .8s ease;
-		width: 60%;
+		width: 91%;
 		height: 0;
 	}
 	.team-sub {
@@ -190,9 +190,7 @@
 		padding-top: 35px;
 	}
 	
-	.col-md-4 {
-		height: 300px!important;
-	}
+	
 }
 
 
