@@ -9,7 +9,7 @@ body {
 p {
   text-align: justify;
   text-justify: inter-word;
-  font-size: 1.2em;
+  
 }
 
 h3,
@@ -241,39 +241,30 @@ h3 {
 
 
 /*new*/
+.point_img{
+  position: relative;
+}
 .left-how {
   float: left;
   text-align: center;
 min-height: 240px;
 }
 
-.left-how .title{
-  font-size: 30px;
-  font-weight: 500;
-  color: #172957;
-  background: #f0f2f3;
-  border-radius: 40px;
-  padding: 20px;
-  margin: 0 0 40px 0;
-  width: 310px;
-  position: relative;
-}
-
 
 .left-how .title{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #172957;
   background: #f0f2f3;
   border-radius: 40px;
   padding: 20px;
   margin: 0 0 10px 0;
-  width: 310px;
+  width: 100%;
   position: relative;
 }
 
 .left-how p{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-align: left;
   float: left;
@@ -305,18 +296,18 @@ min-height: 240px;
 
 
 .right-how .title{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: #172957;
   background: #f0f2f3;
   border-radius: 40px;
   padding: 20px;
   margin: 0 0 10px 0;
-  width: 310px;
+  width: 100%;
   position: relative;
 }
 .right-how p{
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-align: right;
   float: left;
@@ -348,7 +339,24 @@ min-height: 240px;
  
 }
 
+.img-web-how{
+  height: 250px;
+  width:95%;
+  position: absolute;
+  left:0;
+  top :100px;
 
+}
+.web-left-how{
+  height: 170px;;
+  padding-bottom: 10px;
+}
+
+.why-icon{
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+}
 @media only screen and (max-width:768px){
   .middle-how .point_img{
     display: none;
@@ -369,7 +377,7 @@ min-height: 240px;
   }
 
   .left-how .title {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     color: #172957;
     background: #f0f2f3;
@@ -382,7 +390,7 @@ min-height: 240px;
     
   }
     .right-how .title {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 400;
       color: #172957;
       background: #f0f2f3;
@@ -395,8 +403,17 @@ min-height: 240px;
   
 }
 .right-how p{
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  float: right;
+  color: #404040; 
+  line-height: 30px;
+  
+}
+.left-how p{
+  font-size: 12px;
+  font-weight: 300;
   text-align: left;
   float: right;
   color: #404040; 
