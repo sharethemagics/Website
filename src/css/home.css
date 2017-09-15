@@ -124,14 +124,6 @@ h3 {
 }
 
 
-a {
-  text-decoration: none;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  -o-transition: 300ms;
-  transition: 300ms;
-}
-
 a:focus, 
 a:hover {
   text-decoration: none;

@@ -8,9 +8,7 @@ jQuery(function($) {
 		
 	
 	});
-	$(".nav > li:has(ul)").addClass("drop fadeInUp");
-	$(".nav > li.drop > ul").addClass("dropdown fadeInUp");
-	$(".nav > li.drop > ul.dropdown ul").addClass("sup-dropdown fadeInUp");
+
 
 	$(document).ready(function(){
     $('.wpb-mobile-menu').slicknav({

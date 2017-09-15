@@ -17,10 +17,6 @@ jQuery(function ($) {
         $('.image-sub').css('height', slideHeight);
     });
 
-    //Navigation sub menu  dropdown 
-    $(".nav > li:has(ul)").addClass("drop fadeInUp");
-    $(".nav > li.drop > ul").addClass("dropdown fadeInUp");
-    $(".nav > li.drop > ul.dropdown ul").addClass("sup-dropdown fadeInUp");
 
     //Mobile menu 
     $(document).ready(function () {

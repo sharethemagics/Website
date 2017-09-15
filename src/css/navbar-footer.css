@@ -343,7 +343,7 @@ color:#14e1e4!important;
 
 .image-sub .caption {
 position: absolute;
-top: 5%;
+top: 170px;;
 margin-top: -104px;
 left: 0;
 right: 0;
@@ -372,7 +372,7 @@ padding: 10px 5px 10px 35px;
 }
 
 
-@media (min-width: 350px) and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 .image-sub .caption h3 {
   font-size:16px;
 }
