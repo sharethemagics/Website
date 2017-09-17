@@ -12,6 +12,7 @@ module.exports = {
         bposervice: './js/webpack/bpo-service.js',
         webdevelopment:'./js/webpack/web-development.js',
         softwaredevelopment:'./js/webpack/software-development.js',
+        appsupport:'./js/webpack/app-support.js',
         vendor:'./js/webpack/vendor.js'
         
     },
@@ -115,6 +116,12 @@ module.exports = {
             hash:true,
             chunks:['vendor','webdevelopment','commons'],
             filename:'web-development.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/app-support.html',
+            hash:true,
+            chunks:['vendor','appsupport','commons'],
+            filename:'app-support.html'
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),
         new CopyWebpackPlugin ([{from: 'js/wow.min.js'}]),

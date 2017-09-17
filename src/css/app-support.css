@@ -1,0 +1,285 @@
+/*Common properties*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3,
+h2,
+h4 {
+    color: #404040;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.heading-intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#why-tenets-web {
+    margin-top: 40px;
+    background-color: #f0f2f3;
+}
+
+
+/*Tag line */
+
+.image-sub {
+    background: url('../images/app-support/banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+
+/*Application support why**/
+
+.sub-head p {
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+#app-support {
+    padding-left: 19%;
+    padding-right: 19%;
+    background-color: #f0f2f3;
+}
+
+.app-support-image {
+    height: 300px;
+    width: 320px;
+}
+
+.app-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 40%;
+}
+
+.caption .btn-start {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 40px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 35%;
+    background: #1DE9B6;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-start:hover {
+    background: white;
+}
+
+
+/*Offerings*/
+
+#support-offering .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 100px;
+  }
+
+.right-services {
+    text-align: right;
+}
+
+.left-services {
+    text-align: left;
+}
+
+.center-services {
+    position: relative;
+    height: 500px;
+    width: 50px;
+    margin-left: 3%;
+    margin-right: 3%;    
+    
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .center-services .img-responsive {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    position: absolute;
+  }
+.app-support-offer {
+    background: rgba(240, 242, 243, 1);
+    width: 95%;
+    border-radius: 50px;
+    margin-bottom: 40px;
+}
+
+.app-support-offer .offir-span {
+    color: #404040;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.app-support-offer-img1 {
+    background: url('../images/web-development/seo.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.app-support-sub{
+    margin-left: 60px;
+}
+
+/****app support method***/
+
+
+#support-method .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 120px;
+  }
+
+  .app-support-subhead{
+      margin-bottom: 20px;
+  }
+  .method-text{
+      padding-left: 40px;
+      padding-right: 20px
+  }
+
+  #support-method{
+      margin-bottom: 20px;
+  }
+@media (mim-width:1200px) {
+   
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .app-support-image {
+        width: 310px;
+        height: 310px;
+    }
+    .app-support-sub{
+        margin-left: 60px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .sub-head {
+        padding-bottom: 30px;
+    }
+    .app-support-image .img-responsive {
+        margin-left: 40%;
+    }
+    .app-support-offer .offir-span {
+        font-size: 13px;
+    }
+    .app-support-sub{
+        margin-left:0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .center-services{
+        display: none;
+    }
+    .sub-head {
+        padding-bottom: 30px;
+    }
+    .app-support-image {
+        width: 300px;
+        height: 300px;
+    }
+    .app-support-image .img-responsive {
+        margin-left: 20%;
+    }
+    .app-support-offer .offir-span {
+        font-size: 13px;
+    }
+    .caption .btn-start {
+        margin-left: 28%;
+      }
+      .app-support-sub{
+        margin-left: 0px;
+    }
+    #support-method .img-responsive{
+        height: 50%;
+        width:50%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .method-text{
+        font-size: 14px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 479px) {
+    .sub-head>p {
+        font-size: 13px;
+    }
+    .app-support-image {
+        width: 260px;
+        height: 260px;
+    }
+    .app-support-image .img-responsive {
+        margin-left: 8%;
+    }
+    .app-support-offer .offir-span {
+        font-size: 13px;
+    }
+    .caption .btn-start {
+        font-size: 14px;
+        font-weight: 600;
+        margin-left: 13%;
+      }
+    .app-support-sub{
+       margin-left: 0px;
+    }
+}
