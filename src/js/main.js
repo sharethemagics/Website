@@ -69,9 +69,13 @@ var topoffset = 50;
 var hash = $(this).find('li.scroll.active a').attr('href');
 
 if(hash !== '#home') {
-  $('header nav').addClass('inbody');
+	
+	$('header nav').addClass('inbody');
+	$('header nav').removeClass('outbody');
 } else {
-  $('header nav').removeClass('inbody');
+	$('header nav').removeClass('inbody');
+	$('header nav').addClass('outbody');
+	
 }
 
 
@@ -80,9 +84,11 @@ if(hash !== '#home') {
 	var hash = $(this).find('li.active a').attr('href');
 	
     if(hash !== '#home') {
-      $('header nav').addClass('inbody');
+			$('header nav').addClass('inbody');
+			$('header nav').removeClass('outbody');
     } else {
-      $('header nav').removeClass('inbody');
+			$('header nav').removeClass('inbody');
+			$('header nav').addClass('outbody');
     }
 	});
 	
@@ -91,8 +97,10 @@ if(hash !== '#home') {
 		
 			if(hash !== '#home') {
 				$('header nav').addClass('inbody');
+				$('header nav').removeClass('outbody');
 			} else {
 				$('header nav').removeClass('inbody');
+				$('header nav').addClass('outbody');
 			}
 		});
 
