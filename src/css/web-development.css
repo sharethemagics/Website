@@ -32,14 +32,15 @@ h3 {
 }
 
 #why-tenets-web {
-  padding-top: 40px;
+  margin-top: 40px;
+  background-color: #f0f2f3;
 }
 
 
 /*Tag line */
 
 .image-sub {
-  background: linear-gradient( rgba(15, 15, 15, 0.8), rgba(0, 0, 0, 0.8)), url('../images/bg/sd.jpeg');
+  background: linear-gradient( rgba(15, 15, 15, 0.8), rgba(0, 0, 0, 0.8)), url('../images/web-development/sd.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -66,10 +67,6 @@ h3 {
   width: 350px;
 }
 
-.img-responsive {
-  height: 100%;
-}
-
 .web-heading:before {
   height: 2px;
   position: absolute;
@@ -82,8 +79,30 @@ h3 {
   width: 40%;
 }
 
-#services .web-heading:before,
-#how-we-do .web-heading:before {
+#technology .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 80px;
+}
+#how-we-do .web-heading:before{
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 120px;
+}
+#services .web-heading:before
+{
   height: 2px;
   position: absolute;
   bottom: 0;
@@ -136,7 +155,7 @@ h3 {
 }
 
 .web-service-details-img1 {
-  background: url(../images/new/spa.svg) no-repeat;
+  background: url(../images/web-development/spa.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -144,7 +163,7 @@ h3 {
 }
 
 .web-service-details-img2 {
-  background: url(../images/new/responsive.svg) no-repeat;
+  background: url(../images/web-development/responsive.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -152,7 +171,7 @@ h3 {
 }
 
 .web-service-details-img3 {
-  background: url(../images/new/ecommerce.svg) no-repeat;
+  background: url(../images/web-development/ecommerce.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -160,7 +179,7 @@ h3 {
 }
 
 .web-service-details-img4 {
-  background: url(../images/new/content.svg) no-repeat;
+  background: url(../images/web-development/content.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -168,7 +187,7 @@ h3 {
 }
 
 .web-service-details-img5 {
-  background: url(../images/new/seo.svg) no-repeat;
+  background: url(../images/web-development/seo.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -180,7 +199,7 @@ h3 {
 }
 
 .web-service-details-img6 {
-  background: url(../images/new/website-upgrade.svg) no-repeat;
+  background: url(../images/web-development/website-upgrade.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -188,7 +207,7 @@ h3 {
 }
 
 .web-service-details-img7 {
-  background: url(../images/new/performance.svg) no-repeat;
+  background: url(../images/web-development/performance.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -196,7 +215,7 @@ h3 {
 }
 
 .web-service-details-img8 {
-  background: url(../images/new/web-enhanc.svg) no-repeat;
+  background: url(../images/web-development/web-enhanc.svg) no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -223,7 +242,7 @@ h3 {
 /******Web banner ****/
 
 .innerbanner.other {
-  background: linear-gradient( rgba(46, 46, 46, 0.7), rgba(0, 0, 0, 0.7)), url(../images/new/crew1.png) no-repeat;
+  background: linear-gradient( rgba(46, 46, 46, 0.7), rgba(0, 0, 0, 0.7)), url(../images/web-development/crew1.png) no-repeat;
   width: 100%;
   height: 300px;
 }
@@ -302,7 +321,7 @@ h3 {
   left: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/engage.svg) no-repeat;
+  background: url(../images/web-development/engage.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -315,7 +334,7 @@ h3 {
   left: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/user-friend.svg) no-repeat;
+  background: url(../images/web-development/user-friend.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -328,7 +347,7 @@ h3 {
   left: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/edge.svg) no-repeat;
+  background: url(../images/web-development/edge.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -368,7 +387,7 @@ h3 {
   right: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/versatile.svg) no-repeat;
+  background: url(../images/web-development/versatile.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -381,7 +400,7 @@ h3 {
   right: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/strategy.svg) no-repeat;
+  background: url(../images/web-development/strategy.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -394,7 +413,7 @@ h3 {
   right: 0;
   top: 0;
   border-radius: 50px;
-  background: url(../images/new/mobile-first.svg) no-repeat;
+  background: url(../images/web-development/mobile-first.svg) no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -447,11 +466,72 @@ h3 {
 }
 
 
+/***************Tech stack************/
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.tech-image {
+  height: 55px;;
+  width: 55px;
+  margin: 20px;
+  padding: 0;
+}
+
+
+#tech-stack {
+  padding-left: 19%;
+  padding-right: 19%;
+  background-color: #272727;
+  padding-bottom: 3%;
+}
+
+#tech-stack .web-heading {
+  color: white;
+}
+
+.tech-image img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  color: black;
+  height: 100%;
+  width:100%;
+}
+
+.tech-image img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2, 1.2);
+}
+
+
 /***Responsive design css*/
 
-@media (min-width:1200px) {}
+@media (max-width:1200px) {
+  .tech-image {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    padding: 0;
+  }
+  #technology{
+    padding:0px;
+  }
+}
 
 @media (min-width:992px) and (max-width:1199px) {
+  .tech-image {
+    height: 40px;
+    width: 40px;
+    margin: 20px;
+    padding: 0;
+  }
+  #technology{
+    padding:0px;
+  }
   .web-service-details .offir-span {
     font-size: 14px;
   }
@@ -459,8 +539,9 @@ h3 {
     margin-bottom: 20px;
   }
   .web-image {
-    height: 320px;
-    width: 320px;
+    height: 310px;
+    width: 310px;
+    
   }
   .right-how p {
     font-size: 14px;
@@ -477,6 +558,15 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .tech-image {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 0;
+  }
+  #technology{
+    padding:0px;
+  }
   .sub-head {
     padding-bottom: 30px;
   }
@@ -485,7 +575,8 @@ h3 {
     width: 350px;
   }
   .web-image .img-responsive {
-    margin-left: 43%;
+    margin-left: 30%;
+    height: 100%
   }
   .web-service-details {
     margin-bottom: 20px;
@@ -574,8 +665,11 @@ h3 {
     margin-left: 20px;
     margin-right: 20px;
   }
+
+  
   .web-image .img-responsive {
-    margin-left: 27%;
+    height: 100%;
+    margin-left: 10%;
   }
   .why-tenets-image {
     display: none;
@@ -620,12 +714,12 @@ h3 {
     margin-right: 20%;
   }
   .left-how .title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: #172957;
     background: #f0f2f3;
     border-radius: 40px;
-    padding: 20px;
+    padding: 15px;
     margin: 0 0 10px 0;
     width: 110%;
     padding-left: 50px;
@@ -637,7 +731,7 @@ h3 {
     color: #172957;
     background: #f0f2f3;
     border-radius: 40px;
-    padding: 20px;
+    padding: 15px;
     margin: 0 0 10px 0;
     width: 110%;
     padding-left: 50px;
@@ -649,7 +743,7 @@ h3 {
     text-align: left;
     float: right;
     color: #404040;
-    line-height: 30px;
+    line-height: 25px;
   }
   .left-how p {
     font-size: 15px;
@@ -657,23 +751,71 @@ h3 {
     text-align: left;
     float: right;
     color: #404040;
-    line-height: 30px;
+    line-height: 25px;
   }
-  .right-how .engage:after {
-    width: 67px;
-    height: 65px;
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
+  .right-how .versatile:after {
+    width: 55px;
+    height: 55px;
     border-radius: 50px;
-    background: url(../images/new/spa.svg) no-repeat;
-    text-align: left;
-    margin: 0;
+  }
+  .right-how .strategy:after {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  .right-how .mobile-first:after {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  .left-how .engage:before {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  .left-how .user-friendly:before {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  .left-how .edge:before {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+  }
+  .caption .btn-start {
+    margin-left: 28%;
+  }
+  #why-tenets-web {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .tech-image {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    padding: 0;
+  }
+  #technology{
+    padding:0px;
   }
 }
 
 @media (max-width: 479px) {
+  .tech-image {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    padding: 0;
+  }
+  #technology{
+    padding:0px;
+  }
+  
+  #why-tenets-web {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
   h3 {
     font-size: 18px;
   }
@@ -774,8 +916,6 @@ h3 {
     color: #404040;
     line-height: 24px;
   }
-  
-
   .right-how .versatile:after {
     width: 45px;
     height: 45px;
@@ -806,7 +946,6 @@ h3 {
     height: 45px;
     border-radius: 50px;
   }
-  
   .web-left-how {
     margin-bottom: 10px;
   }

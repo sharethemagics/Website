@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100.00002"
+   viewBox="0 0 11.840888 11.840002"
+   preserveAspectRatio="xMinYMin meet"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="webpack.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata50">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview48"
+     showgrid="false"
+     inkscape:zoom="0.3392"
+     inkscape:cx="1081"
+     inkscape:cy="1245.1338"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg46" />
+  <defs
+     id="defs38">
+    <radialGradient
+       fx="137.57983"
+       fy="137.68396"
+       id="a"
+       gradientTransform="scale(0.04304372,0.04306661)"
+       cx="137.57983"
+       cy="137.68396"
+       r="137.25961"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#93B4E7"
+         offset="0%"
+         id="stop31" />
+      <stop
+         stop-color="#B9D1F8"
+         offset="59.273%"
+         id="stop33" />
+      <stop
+         stop-color="#9CB6E0"
+         offset="100%"
+         id="stop35" />
+    </radialGradient>
+  </defs>
+  <path
+     d="M 5.9219241,0.01828 0.01378353,2.97391 V 8.88522 L 5.9219241,11.84089 11.830111,8.88522 V 2.97391 Z"
+     id="path40"
+     style="fill:url(#a);stroke-width:0.04305516"
+     inkscape:connector-curvature="0" />
+  <path
+     d="M 5.9220167,3.01639 2.9921369,4.48209 V 7.41355 L 5.9220167,8.87929 8.8518964,7.41355 V 4.48209 Z"
+     id="path42"
+     inkscape:connector-curvature="0"
+     style="fill:#6f95db;stroke-width:0.04305516" />
+  <path
+     d="M 5.920444,0 0,2.97579 5.920444,5.76895 11.840888,2.99403 Z m 0,6.15234 L 0,8.87247 5.920444,11.82995 11.819796,8.8542 5.920444,6.15238 Z"
+     id="path44"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;fill-opacity:0.1;stroke-width:0.04305516" />
+</svg>
