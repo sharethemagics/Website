@@ -1,39 +1,69 @@
 /***Common****/
+
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 30px;
     color: #4E4E4E;
     position: relative;
-  }
- 
-  p {
+}
+
+p {
     text-align: justify;
     text-justify: inter-word;
-  }
-  
-  h3,
-  h2,
-  h4 {
-    color: #4E4E4E;
+}
+
+.image-sub .caption h3 {
+    color: rgb(255, 247, 247);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+h3,
+h2,
+h4 {
+    color: #333232;
     font-weight: 400;
     line-height: 33px;
     margin-bottom: 5px;
-  }
-  
-  h3 {
-    font-size: 28px;
-  }
-  .fa-fw {
-    margin-right: 10px;
-    color:#1DE9B6;
 }
-  .heading-intro {
+
+h3 {
+    font-size: 28px;
+}
+
+.fa-fw {
+    margin-right: 10px;
+    color: #1DE9B6;
+}
+
+.heading-intro {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-/*******How we do tabs***/
-#how-we-do .web-heading:before {
+}
+
+
+/*****heading ****/
+
+.image-sub {
+    background: linear-gradient( rgba(10, 10, 10, 0.9), rgba(255, 251, 251, 0.4)), url('../images/digital-marketing/heading.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+
+/**Why digital**/
+
+#about-digital {
+    padding-bottom: 20px;
+}
+
+#about-digital .web-heading:before {
     height: 2px;
     position: absolute;
     bottom: 0;
@@ -42,86 +72,174 @@ body {
     margin: 0 auto;
     background: #1DE9B6;
     content: '';
-    width: 80px;
+    width: 200px;
 }
 
-.tab-inner p{
-    padding-left:35px;
-}
-.deco{
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    margin-top:10px;
-} 
-
-.nav.nav-justified>li>a {
-    position: relative;
+.sub-head p {
+    padding-top: 5%;
+    padding-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.nav.nav-justified>li>a:hover,
-.nav.nav-justified>li>a:focus {
-    background-color: transparent;
+.caption .btn-start {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 40px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 35%;
+    background: #1DE9B6;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-start:hover {
+    background: white;
 }
 
 
-.nav.nav-justified>li>a>img {
-height:75px;
-width:75px;
-margin-left:20%;
-}
-li.active img{
-    box-shadow: 0 5px 8px rgba(0,0,0,0.25), 0 5px 6px rgba(0,0,0,0.22);
+/*************Offering*********/
+
+.offer-image {
+    padding: 7%;
+    text-align: center;
 }
 
-.tab-icons {
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 2%
-}
-
-.nav.nav-justified>li>a>img {
-    max-width: 100%;
-    opacity: .3;
-    -webkit-transform: scale(.8, .8);
-    transform: scale(.8, .8);
-    -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.nav.nav-justified>li.active>a>img,
-.nav.nav-justified>li:hover>a>img,
-.nav.nav-justified>li:focus>a>img {
+#services-offered {
+    margin-top: 20px;
+    background: url('../images/digital-marketing/bg-1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
     opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    -webkit-transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition: all 0.3s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.tab-pane .tab-inner {
-    padding: 30px 0 20px;
+#services-offered h4 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
+#services-offered .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 200px;
+}
+
+
+/*******how email done***/
+
+#how-we-do-email {
+    background: #EEEEEE;
+}
+
+.how-we-right-pane {
+    margin-top: 2%;
+}
+
+#how-we-do-email .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 200px;
+}
+
+#how-we-do-email .img-responsive {
+    padding-left: 15%;
+}
+
+.how-we-steps {
+    padding-left: 25px;
+}
+
+
+/********How CRM done ****/
+
+
+.how-we-right-pane {
+    margin-top: 2%;
+}
+
+#how-we-do-crm .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 150px;
+}
+
+#how-we-do-crm .img-responsive {
+    padding-left: 15%;
+}
+
+.how-we-steps {
+    padding-left: 25px;
+}
+/********how we do social****/
+#how-we-do-social{
+    background: #EEEEEE;
+}
+.how-we-right-pane {
+    margin-top: 2%;
+    
+}
+
+#how-we-do-social .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 150px;
+}
+
+#how-we-do-social .img-responsive {
+    padding-left: 15%;
+}
+
+.how-we-steps {
+    padding-left: 25px;
+}
 @media (max-width:1200px) {}
 
 @media (min-width:992px) and (max-width:1199px) {}
 
-@media (min-width: 768px) and (max-width: 991px) {}
-
-@media (max-width: 768px) {
-    .tab-icons {
-        padding-top: 25%;
+@media (min-width: 768px) and (max-width: 991px) {
+    .img-responsive {
+        margin-left: 10%;
+    }
+    #how-we-do-email .img-responsive {
         padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 10%;
-        height: 450px;
+        margin-top: 50%;
     }
 }
 
-@media (max-width: 479px) {
-    .tab-icons {
-        padding-top: 5%;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 5%;
-    }
-}
+@media (max-width: 768px) {}
+
+@media (max-width: 479px) {}
