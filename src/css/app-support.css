@@ -55,6 +55,9 @@ h3 {
 .sub-head p {
     padding-top: 10%;
     padding-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 #app-support {
@@ -161,7 +164,7 @@ h3 {
     height: 62px;
     width: 62px;
     display: inline-block;
-    margin-left: 10px;
+    
 }
 
 .app-support-sub{
@@ -188,11 +191,46 @@ h3 {
   }
   .method-text{
       padding-left: 40px;
-      padding-right: 20px
+      padding-right: 20px;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 30px;
+    
   }
 
   #support-method{
       margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .fa-fw {
+      margin-right: 10px;
+      color:#1DE9B6;
+  }
+
+  /********Why choose us **************/
+
+
+  #app-support-why-us .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 100px;
+  }
+  #app-support-why-us{
+      background-color: #DFDBDB;
+      
+  }
+  
+  #app-support-why-us .fa-fw{
+    color:#1D31E9;
   }
 @media (mim-width:1200px) {
    
@@ -248,6 +286,12 @@ h3 {
         margin-left: 0px;
     }
     #support-method .img-responsive{
+        height: 50%;
+        width:50%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #app-support-why-us .img-responsive{
         height: 50%;
         width:50%;
         margin: auto;
