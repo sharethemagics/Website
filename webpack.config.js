@@ -13,6 +13,7 @@ module.exports = {
         webdevelopment:'./js/webpack/web-development.js',
         softwaredevelopment:'./js/webpack/software-development.js',
         appsupport:'./js/webpack/app-support.js',
+        digitalmarketing:'./js/webpack/digital-marketing.js',
         vendor:'./js/webpack/vendor.js'
         
     },
@@ -122,6 +123,12 @@ module.exports = {
             hash:true,
             chunks:['vendor','appsupport','commons'],
             filename:'app-support.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/digital-marketing.html',
+            hash:true,
+            chunks:['vendor','digitalmarketing','commons'],
+            filename:'digital-marketing.html'
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),
         new CopyWebpackPlugin ([{from: 'js/wow.min.js'}]),
