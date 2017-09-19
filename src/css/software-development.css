@@ -1,4 +1,3 @@
-
 /***Common****/
 
 body {
@@ -27,11 +26,15 @@ h4 {
   color: #333232;
   font-weight: 400;
   line-height: 33px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 .fa-fw {
@@ -60,10 +63,10 @@ h3 {
 
 /*******why software dev***/
 
-#about-sft-dev{
+#about-sft-dev {
   padding-bottom: 20px;
-  
 }
+
 #about-sft-dev .web-heading:before {
   height: 2px;
   position: absolute;
@@ -110,11 +113,10 @@ h3 {
 
 .image-container {
   text-align: center;
-  
 }
 
 #sd-offer {
-  background:url('../images/software-development/bg3.png');
+  background: url('../images/software-development/bg3.png');
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -122,13 +124,13 @@ h3 {
   padding-top: 10px;
   opacity: 1;
 }
+
 .category {
   display: inline-block;
- margin:40px;
-  
+  margin: 40px;
 }
 
-#sd-offer img{
+#sd-offer img {
   height: auto;
   width: auto;
   margin: 60px;
@@ -145,7 +147,238 @@ h3 {
   content: '';
   width: 180px;
 }
-.image-container h4{
-  font-size: 22px;
+
+.image-container h4 {
+  font-size: 20px;
   font-weight: 400;
+}
+
+
+/***********sft prod dev****/
+
+#product-sd .sd-padding {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+#product-sd {
+  background-color: #f0f2f3;
+}
+/*******Custom SD Dec****/
+
+#custom-sd .sd-padding {
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+
+/*******Methodology****/
+
+.custom-sd-image .img-responsive {
+  margin: 50px;
+}
+
+#methodology .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 180px;
+}
+
+
+/**** why tenets ***/
+
+#why-tenets-web .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 250px;
+}
+#why-tenets-web {
+  margin-top: 40px;
+  background-color: #f0f2f3;
+}
+
+.why-icon {
+  float: left;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.fa-superpowers {
+  color: #9B26AF;
+}
+
+.fa-user-plus {
+  color: #0091EA;
+}
+
+.fa-bullseye {
+  color: #00BF9A;
+}
+
+.fa-check {
+  color: #FF4081;
+}
+
+.fa-users {
+  color: #FF5722;
+}
+
+.fa-cogs {
+  color: #59A825;
+}
+
+
+  /****Specilization***/
+  #app-support-specialize .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 220px;
+  }
+  #app-support-specialize,
+  #app-support-specialize p
+  {
+     text-align: center;
+     font-size:16px;
+     font-weight: 400;
+     line-height: 30px;
+
+      
+  }
+  
+  .app-support-specialize .fa-fw{
+    color:#1D31E9;
+  }
+
+  #app-support-specialize ul{
+  
+      list-style-type: none;
+      padding-left: 0px;
+  
+  }
+@media (max-width: 575px) {
+  .custom-sd-image {
+    display: none;
+  }
+  .why-tenets-image {
+    display: none;
+  }
+  .category {
+    height: 200px;
+    width: 200px;
+  }
+  #sd-offer img {
+    height: auto;
+    width: auto;
+    margin: 20px;
+  }
+  .image-container h4 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .custom-sd-image {
+    display: none;
+  }
+  #sd-offer img {
+    height: auto;
+    width: auto;
+    margin: 20px;
+  }
+  .category {
+    height: 200px;
+    width: 200px;
+  }
+  .image-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .why-tenets-image {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #methodology {
+    height: 600px;
+  }
+  #product-sd {
+    height: 800px;
+  }
+  #custom-sd .col-sm-6 {
+    height: 750px;
+  }
+  #custom-sd {
+    height: 1100px;
+  }
+  #custom-sd .col-sm-6 {
+    height: 600px;
+  }
+  #custom-sd p {
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .custom-sd-image {
+    height: 400px;
+  }
+  #custom-sd .custom-sd-image {
+    margin-top: 20%;
+  }
+  #sd-offer img {
+    height: auto;
+    width: auto;
+    margin: 15px;
+  }
+  .category {
+    height: 280px;
+    width: 280px;
+  }
+  .method-sub p {
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .method-sub {
+    height: 180px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #custom-sd .custom-sd-image {
+    margin-top: 10%;
+  }
+  .method-sub {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .method-sub {
+    height: 200px;
+  }
+  #product-sd .custom-sd-image {
+    height: 400px;
+    width: 400px;
+    margin-left: 10%;
+  }
 }
