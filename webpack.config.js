@@ -14,6 +14,7 @@ module.exports = {
         softwaredevelopment:'./js/webpack/software-development.js',
         appsupport:'./js/webpack/app-support.js',
         digitalmarketing:'./js/webpack/digital-marketing.js',
+        automation:'./js/webpack/automation.js',
         vendor:'./js/webpack/vendor.js'
         
     },
@@ -123,6 +124,12 @@ module.exports = {
             hash:true,
             chunks:['vendor','appsupport','commons'],
             filename:'app-support.html'
+        }),
+        new htmlWebPackPlugin({
+            template:'html/automation.html',
+            hash:true,
+            chunks:['vendor','automation','commons'],
+            filename:'automation.html'
         }),
         new htmlWebPackPlugin({
             template:'html/digital-marketing.html',

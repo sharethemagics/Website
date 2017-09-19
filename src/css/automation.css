@@ -1,0 +1,246 @@
+/*Common properties*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+    position: relative;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3,
+h2,
+h4 {
+    color: #404040;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.heading-intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#why-tenets-web {
+    margin-top: 40px;
+    background-color: #f0f2f3;
+}
+
+
+/*Tag line */
+
+.image-sub {
+    background: linear-gradient( rgba(15, 15, 15, 0.8), rgba(0, 0, 0, 0.8)), url('../images/automation/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+
+/**********why automation****/
+
+#abt-automation .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 280px;
+}
+
+.sub-head p {
+    
+    
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.caption .btn-start {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 40px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 35%;
+    background: #1DE9B6;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+}
+
+.btn-start:hover {
+    background: white;
+}
+
+
+.img-responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.web-image{
+    padding-left:50px;
+}
+.web-start-breif{
+    padding-bottom: 20px;
+}
+
+
+/************Offering****/
+
+
+.image-container {
+    text-align: center;
+  }
+  
+  #automation-offer {
+    background: lightgray;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+  }
+  
+  .category {
+    display: inline-block;
+    margin: 40px;
+  }
+  
+  #automation-offer img {
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+  }
+  
+  #automation-offer .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 180px;
+  }
+  
+  .image-container h4 {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /*****What we do *****/
+  #what-we-do .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 90px;
+  }
+
+
+  #what-we-do {
+    background:  url('../images/automation/automation-bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+}
+
+/**Why choose us ************/
+#why-choose-us .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 90px;
+  }
+  .catogery-why{
+    display: inline-block;
+    margin: 40px;
+  }
+  #why-choose-us img {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.sub-choose{
+    margin-top:5%;
+}
+
+  @media (max-width: 575px) {
+       #automation-offer img {
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+      }
+      .category{
+          margin:10px;
+      }
+      .category b{
+          font-weight: 500;
+      }
+  }
+
+  @media (min-width: 576px) and (max-width: 767px) {
+    #automation-offer img {
+        height: 90px;
+        width: 90px;
+        margin: 10px;
+      }
+      .category{
+          margin:10px;
+      }
+      .category b{
+          font-weight: 500;
+      }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+  }
+
+  @media (min-width: 1200px) {
+  }

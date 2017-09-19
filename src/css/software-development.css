@@ -109,7 +109,7 @@ h4 {
 }
 
 
-/*****offering*/
+/*****offering*********/
 
 .image-container {
   text-align: center;
@@ -127,13 +127,18 @@ h4 {
 
 .category {
   display: inline-block;
-  margin: 40px;
+  margin: 20px;
 }
 
-#sd-offer img {
+.img-responsive {
+  display: inline-block;
+  max-width: 100%;
   height: auto;
-  width: auto;
-  margin: 60px;
+}
+#sd-offer img {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
 }
 
 #sd-offer .web-heading:before {
@@ -164,6 +169,8 @@ h4 {
 #product-sd {
   background-color: #f0f2f3;
 }
+
+
 /*******Custom SD Dec****/
 
 #custom-sd .sd-padding {
@@ -204,6 +211,7 @@ h4 {
   content: '';
   width: 250px;
 }
+
 #why-tenets-web {
   margin-top: 40px;
   background-color: #f0f2f3;
@@ -240,39 +248,81 @@ h4 {
 }
 
 
-  /****Specilization***/
-  #app-support-specialize .web-heading:before {
-    height: 2px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    background: #1DE9B6;
-    content: '';
-    width: 220px;
-  }
-  #app-support-specialize,
-  #app-support-specialize p
-  {
-     text-align: center;
-     font-size:16px;
-     font-weight: 400;
-     line-height: 30px;
+/****Specilization***/
 
-      
-  }
-  
-  .app-support-specialize .fa-fw{
-    color:#1D31E9;
-  }
+#app-support-specialize .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 220px;
+}
 
-  #app-support-specialize ul{
-  
-      list-style-type: none;
-      padding-left: 0px;
-  
-  }
+#app-support-specialize,
+#app-support-specialize p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.app-support-specialize .fa-fw {
+  color: #1D31E9;
+}
+
+#app-support-specialize ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+
+/***************Tech stack************/
+
+.image-container {
+  text-align: center;
+}
+
+.category-tech {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+#technology {
+  padding: 0;
+}
+
+#tech-stack {
+  padding-left: 19%;
+  padding-right: 19%;
+  background-color: #272727;
+  padding-bottom: 3%;
+}
+
+#tech-stack .web-heading {
+  color: white;
+}
+
+.tech-image img {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  transition: all 0.5s ease;
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.tech-image img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2, 1.2);
+}
+
 @media (max-width: 575px) {
   .custom-sd-image {
     display: none;
@@ -280,18 +330,16 @@ h4 {
   .why-tenets-image {
     display: none;
   }
-  .category {
-    height: 200px;
-    width: 200px;
-  }
-  #sd-offer img {
-    height: auto;
-    width: auto;
-    margin: 20px;
-  }
+
   .image-container h4 {
     font-size: 16px;
     font-weight: 400;
+  }
+  .category-tech {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
   }
 }
 
@@ -299,15 +347,8 @@ h4 {
   .custom-sd-image {
     display: none;
   }
-  #sd-offer img {
-    height: auto;
-    width: auto;
-    margin: 20px;
-  }
-  .category {
-    height: 200px;
-    width: 200px;
-  }
+
+
   .image-container h4 {
     font-size: 18px;
     font-weight: 400;
@@ -316,8 +357,6 @@ h4 {
     display: none;
   }
 }
-
-
 
 @media (min-width: 768px) and (max-width: 991px) {
   #methodology {
@@ -345,15 +384,7 @@ h4 {
   #custom-sd .custom-sd-image {
     margin-top: 20%;
   }
-  #sd-offer img {
-    height: auto;
-    width: auto;
-    margin: 15px;
-  }
-  .category {
-    height: 280px;
-    width: 280px;
-  }
+ 
   .method-sub p {
     font-size: 14px;
     line-height: 28px;

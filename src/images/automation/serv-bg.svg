@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="41.199406mm"
+   height="138.33928mm"
+   viewBox="0 0 41.199406 138.33928"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="serv-bg.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="916.42869"
+     inkscape:cy="550.00003"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(259.48069,-156.01489)">
+    <g
+       id="g1127"
+       transform="matrix(0.10987673,0,0,0.30073757,-261.12881,156.01489)">
+      <g
+         id="XMLID_104_">
+        <path
+           d="m 340.977,50 c 2.554,4.414 4.023,9.534 4.023,15 0,5.466 -1.469,10.586 -4.023,15 H 375 V 50 Z"
+           style="fill:#404040"
+           id="XMLID_105_"
+           inkscape:connector-curvature="0" />
+        <polygon
+           points="102.833,50 117.79,80 255,80 255,50 "
+           style="fill:#404040"
+           id="XMLID_106_" />
+        <rect
+           height="60"
+           width="30"
+           style="fill:#ff6a00"
+           y="35"
+           x="255"
+           id="XMLID_107_" />
+        <path
+           d="M 340.977,50 C 335.789,41.036 326.103,35 315,35 c -16.569,0 -30,0 -30,0 v 60 c 0,0 13.431,0 30,0 11.102,0 20.789,-6.036 25.977,-15 2.554,-4.414 4.023,-9.534 4.023,-15 0,-5.466 -1.469,-10.586 -4.023,-15 z"
+           style="fill:#ffaa19"
+           id="XMLID_108_"
+           inkscape:connector-curvature="0" />
+        <polygon
+           points="445,30 425,30 425,0 395,0 395,30 410,30 410,100 395,100 395,160 425,160 425,100 445,100 "
+           style="fill:#404040"
+           id="XMLID_109_" />
+        <rect
+           height="70"
+           width="35"
+           style="fill:#606060"
+           y="30"
+           x="375"
+           id="XMLID_110_" />
+        <polygon
+           points="144.788,340 69.788,340 63.121,370 144.788,370 "
+           style="fill:#bfbfbf"
+           id="XMLID_138_" />
+        <polygon
+           points="144.788,400 56.454,400 49.788,430 144.788,430 "
+           style="fill:#bfbfbf"
+           id="XMLID_169_" />
+        <polygon
+           points="144.788,430 239.788,430 233.121,400 144.788,400 "
+           style="fill:#a3a3a3"
+           id="XMLID_197_" />
+        <polygon
+           points="144.788,370 226.454,370 219.788,340 144.788,340 "
+           style="fill:#a3a3a3"
+           id="XMLID_221_" />
+        <path
+           d="m 144.788,279.999 c -16.512,-0.013 -32.403,-9.138 -40.272,-24.92 L 77.746,201.387 C 72.665,211.5 69.788,222.911 69.788,235 c 0,41.421 0,75 0,75 h 75 z"
+           style="fill:#ffaa19"
+           id="XMLID_222_"
+           inkscape:connector-curvature="0" />
+        <path
+           d="M 164.866,275.272 151.48,248.424 c -7.414,3.697 -16.421,0.683 -20.117,-6.731 -3.697,-7.414 -0.683,-16.42 6.731,-20.117 L 66.716,78.413 c -7.427,3.704 -16.434,0.69 -20.13,-6.724 -1.156,-2.318 -1.655,-4.792 -1.57,-7.211 0.177,-5.329 3.194,-10.394 8.301,-12.94 L 39.931,24.69 C 17.689,35.78 8.648,62.799 19.738,85.042 l 58.008,116.345 26.77,53.692 c 7.869,15.782 23.76,24.907 40.272,24.92 V 310 h 75 c 0,0 0,-33.579 0,-75 0,-36.808 -26.523,-67.4 -61.494,-73.764 l 26.766,53.685 c 11.089,22.242 2.048,49.262 -20.194,60.351 z"
+           style="fill:#ff6a00"
+           id="XMLID_223_"
+           inkscape:connector-curvature="0" />
+        <rect
+           height="30"
+           width="115"
+           style="fill:#606060"
+           y="430"
+           x="29.788"
+           id="XMLID_224_" />
+        <rect
+           height="30"
+           width="115"
+           style="fill:#404040"
+           y="430"
+           x="144.78799"
+           id="XMLID_225_" />
+        <rect
+           height="30"
+           width="95"
+           style="fill:#8f8f8f"
+           y="370"
+           x="49.787998"
+           id="XMLID_226_" />
+        <rect
+           height="30"
+           width="95"
+           style="fill:#606060"
+           y="370"
+           x="144.78799"
+           id="XMLID_227_" />
+        <rect
+           height="30"
+           width="75"
+           style="fill:#8f8f8f"
+           y="310"
+           x="69.788002"
+           id="XMLID_228_" />
+        <rect
+           height="30"
+           width="75"
+           style="fill:#606060"
+           y="310"
+           x="144.78799"
+           id="XMLID_229_" />
+        <path
+           d="M 100.282,44.884 C 89.193,22.642 62.173,13.601 39.931,24.69 l 13.386,26.848 c 7.414,-3.697 16.421,-0.683 20.117,6.731 1.156,2.318 1.655,4.792 1.57,7.211 -0.177,5.324 -3.189,10.385 -8.287,12.933 l 71.378,143.163 c 7.414,-3.697 16.421,-0.683 20.117,6.731 3.696,7.414 0.683,16.42 -6.731,20.117 l 13.386,26.848 c 22.242,-11.089 31.282,-38.109 20.193,-60.351 L 158.294,161.236 117.79,80 102.833,50 Z"
+           style="fill:#ff3d0d"
+           id="XMLID_230_"
+           inkscape:connector-curvature="0" />
+        <circle
+           r="15"
+           cy="235"
+           cx="144.78799"
+           style="fill:#404040"
+           id="XMLID_231_" />
+        <path
+           d="m 45.016,64.479 c -0.086,2.419 0.414,4.893 1.57,7.211 3.696,7.414 12.703,10.428 20.117,6.731 5.111,-2.556 8.124,-7.616 8.301,-12.94 0.086,-2.418 -0.414,-4.893 -1.57,-7.211 -3.696,-7.414 -12.703,-10.428 -20.117,-6.731 -5.107,2.545 -8.124,7.61 -8.301,12.94 z"
+           style="fill:#404040"
+           id="XMLID_232_"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g1053" />
+      <g
+         id="g1055" />
+      <g
+         id="g1057" />
+      <g
+         id="g1059" />
+      <g
+         id="g1061" />
+      <g
+         id="g1063" />
+      <g
+         id="g1065" />
+      <g
+         id="g1067" />
+      <g
+         id="g1069" />
+      <g
+         id="g1071" />
+      <g
+         id="g1073" />
+      <g
+         id="g1075" />
+      <g
+         id="g1077" />
+      <g
+         id="g1079" />
+      <g
+         id="g1081" />
+    </g>
+  </g>
+</svg>
