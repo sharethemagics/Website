@@ -1,27 +1,151 @@
 
+/***Common****/
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    color: #666;
-    position: relative;
-  }
-  p{
-    text-align: justify;
-    text-justify: inter-word;
-    font-size:18px;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 150%;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4E4E4E;
+  position: relative;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.image-sub .caption h3 {
+  color: rgb(255, 247, 247);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+h3,
+h2,
+h4 {
+  color: #333232;
+  font-weight: 400;
+  line-height: 33px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+.fa-fw {
+  margin-right: 10px;
+  color: #1DE9B6;
+}
+
+.heading-intro {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*****heading ****/
+
+.image-sub {
+  background: linear-gradient( rgb(10, 10, 10), rgba(255, 251, 251, 0.1)), url('../images/software-development/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: auto;
+  padding-top: 10px;
+  opacity: 1;
+}
+
+
+/*******why software dev***/
+
+#about-sft-dev{
+  padding-bottom: 20px;
   
-  .image-sub{
-    
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: auto;
-    padding-top: 10px;
-    opacity: 1;
+}
+#about-sft-dev .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 230px;
+}
+
+.sub-head p {
+  padding-top: 5%;
+  padding-left: 5%;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.caption .btn-start {
+  color: #404040;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 40px;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 35%;
+  background: #1DE9B6;
+  box-shadow: 2px 2px 1px #888888;
+}
+
+.btn {
+  border: 0;
+  border-radius: 0;
+}
+
+.btn-start:hover {
+  background: white;
+}
+
+
+/*****offering*/
+
+.image-container {
+  text-align: center;
   
-    } 
+}
+
+#sd-offer {
+  background:url('../images/software-development/bg3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: auto;
+  padding-top: 10px;
+  opacity: 1;
+}
+.category {
+  display: inline-block;
+ margin:40px;
+  
+}
+
+#sd-offer img{
+  height: auto;
+  width: auto;
+  margin: 60px;
+}
+
+#sd-offer .web-heading:before {
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #1DE9B6;
+  content: '';
+  width: 180px;
+}
+.image-container h4{
+  font-size: 22px;
+  font-weight: 400;
+}

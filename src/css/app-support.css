@@ -90,6 +90,7 @@ h3 {
     padding: 14px 40px;
     border-radius: 4px;
     margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: 35%;
     background: #1DE9B6;
     box-shadow: 2px 2px 1px #888888;
@@ -243,10 +244,16 @@ h3 {
     margin: 0 auto;
     background: #1DE9B6;
     content: '';
-    width: 100px;
+    width: 180px;
   }
-  #app-support-specialize{
-      background-color: #DFDBDB;
+  #app-support-specialize,
+  #app-support-specialize p
+  {
+     text-align: center;
+     font-size:16px;
+     font-weight: 400;
+     line-height: 30px;
+
       
   }
   
@@ -281,6 +288,7 @@ h3 {
     .app-support-sub{
         margin-left:0px;
     }
+   
 }
 
 @media (max-width: 767px) {
@@ -297,6 +305,11 @@ h3 {
     .app-support-image .img-responsive {
         margin-left: 20%;
     }
+    .app-support-offer {
+        
+          width: 58%;
+          margin-left:18%;
+      }
     .app-support-offer .offir-span {
         font-size: 13px;
     }
@@ -329,6 +342,11 @@ h3 {
     .sub-head>p {
         font-size: 13px;
     }
+    .app-support-offer {
+        
+          width: 95%;
+          
+      }
     .app-support-image {
         width: 260px;
         height: 260px;
