@@ -1,3 +1,5 @@
+
+
 /***Common****/
 
 body {
@@ -47,7 +49,7 @@ h3 {
 /*****heading ****/
 
 .image-sub {
-    background: linear-gradient( rgba(10, 10, 10, 0.9), rgba(255, 251, 251, 0.4)), url('../images/digital-marketing/heading.jpg');
+    background: linear-gradient( rgb(10, 10, 10), rgba(255, 251, 251, 0.1)), url('../images/digital-marketing/heading.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -164,7 +166,7 @@ h3 {
 }
 
 #how-we-do-email .img-responsive {
-    padding-left: 15%;
+    margin:auto;
 }
 
 .how-we-steps {
@@ -174,10 +176,10 @@ h3 {
 
 /********How CRM done ****/
 
-
 .how-we-right-pane {
     margin-top: 2%;
 }
+
 
 #how-we-do-crm .web-heading:before {
     height: 2px;
@@ -192,19 +194,22 @@ h3 {
 }
 
 #how-we-do-crm .img-responsive {
-    padding-left: 15%;
+    margin:auto;
 }
 
 .how-we-steps {
     padding-left: 25px;
 }
+
+
 /********how we do social****/
-#how-we-do-social{
+
+#how-we-do-social {
     background: #EEEEEE;
 }
+
 .how-we-right-pane {
     margin-top: 2%;
-    
 }
 
 #how-we-do-social .web-heading:before {
@@ -220,12 +225,56 @@ h3 {
 }
 
 #how-we-do-social .img-responsive {
-    padding-left: 15%;
+    margin: auto;
 }
 
 .how-we-steps {
     padding-left: 25px;
 }
+
+
+/************tech stack***********/
+
+.image-container {
+    text-align: center;
+}
+
+.category {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+#technology {
+    background-color: #272727;
+    text-align: center;
+}
+
+#technology h3{
+    color:white;
+    
+}
+#tech-stack p{
+    text-align: center;
+    color: #C2BDBD;
+}
+
+.tech-image img {
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.tech-image img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.2, 1.2);
+}
+
 @media (max-width:1200px) {}
 
 @media (min-width:992px) and (max-width:1199px) {}

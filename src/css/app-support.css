@@ -243,7 +243,15 @@ h3 {
     margin: 0 auto;
     background: #1DE9B6;
     content: '';
-    width: 120px;
+    width: 100px;
+  }
+  #app-support-specialize{
+      background-color: #DFDBDB;
+      
+  }
+  
+  app-support-specialize .fa-fw{
+    color:#1D31E9;
   }
 @media (mim-width:1200px) {
    

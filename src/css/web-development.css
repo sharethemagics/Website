@@ -467,20 +467,20 @@ h3 {
 
 
 /***************Tech stack************/
-
-.center {
-  margin: auto;
-  padding: 10px;
+.image-container {
+  text-align: center;
 }
 
-.tech-image {
-  height: 55px;;
-  width: 55px;
-  margin: 20px;
-  padding: 0;
+.category {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 10px;
 }
 
-
+#technology{
+  padding:0;
+}
 #tech-stack {
   padding-left: 19%;
   padding-right: 19%;
@@ -511,27 +511,11 @@ h3 {
 /***Responsive design css*/
 
 @media (max-width:1200px) {
-  .tech-image {
-    height: 40px;
-    width: 40px;
-    margin: 20px;
-    padding: 0;
-  }
-  #technology{
-    padding:0px;
-  }
+ 
 }
 
 @media (min-width:992px) and (max-width:1199px) {
-  .tech-image {
-    height: 40px;
-    width: 40px;
-    margin: 20px;
-    padding: 0;
-  }
-  #technology{
-    padding:0px;
-  }
+
   .web-service-details .offir-span {
     font-size: 14px;
   }
@@ -558,15 +542,7 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .tech-image {
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    padding: 0;
-  }
-  #technology{
-    padding:0px;
-  }
+  
   .sub-head {
     padding-bottom: 30px;
   }
@@ -790,28 +766,17 @@ h3 {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .tech-image {
-    height: 40px;
-    width: 40px;
-    margin: 10px;
-    padding: 0;
-  }
-  #technology{
-    padding:0px;
-  }
+ 
 }
 
 @media (max-width: 479px) {
-  .tech-image {
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-    padding: 0;
-  }
-  #technology{
-    padding:0px;
-  }
   
+  .category {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
   #why-tenets-web {
     margin-bottom: 0px;
     margin-top: 0px;
