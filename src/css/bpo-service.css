@@ -1,3 +1,448 @@
-#abt {
-    color: pink;
+/*Common properties*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404040;
+    position: relative;
+  }
+  
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  h3,
+  h2,
+  h4 {
+    color: #404040;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 28px;
+  }
+  
+  .heading-intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #why-tenets-web {
+    margin-top: 40px;
+    background-color: #f0f2f3;
+  }
+  
+  
+  /*Tag line */
+  
+  .image-sub {
+    background: linear-gradient( rgba(15, 15, 15, 0.8), rgba(0, 0, 0, 0.8)), url('../images/bpo/bpo-bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: auto;
+    padding-top: 10px;
+    opacity: 1;
+  }
+  
+  
+  /*Website and offerings */
+  
+  .sub-head p {
+    padding-top: 10%;
+  }
+  
+  #web-service {
+    padding-left: 19%;
+    padding-right: 19%;
+    background-color: #f0f2f3;
+  }
+  
+  .web-image {
+    height: 350px;
+    width: 350px;
+  }
+  
+  .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 40%;
+  }
+  
+  #technology .web-heading:before {
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 80px;
+  }
+  #how-we-do .web-heading:before{
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #1DE9B6;
+    content: '';
+    width: 120px;
+  }
+ 
+  
+  .caption .btn-start {
+    color: #404040;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 40px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-left: 35%;
+    background: #1DE9B6;
+    box-shadow: 2px 2px 1px #888888;
+  }
+  
+  .btn {
+    border: 0;
+    border-radius: 0;
+  }
+  
+  .btn-start:hover {
+    background: white;
+  }
+  
+  #web-service-offer {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .web-service-details .offir-span {
+    color: #404040;
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+  }
+  
+  .web-service-details {
+    background: rgba(240, 242, 243, 1);
+    width: 95%;
+    border-radius: 50px;
+    margin-bottom: 40px;
+  }
+  
+  .web-service-details-img1 {
+    background: url(../images/web-development/spa.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .web-service-details-img2 {
+    background: url(../images/web-development/responsive.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .web-service-details-img3 {
+    background: url(../images/web-development/ecommerce.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .web-service-details-img5 {
+    background: url(../images/web-development/seo.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .right-services {
+    text-align: right;
+  }
+  
+  .web-service-details-img6 {
+    background: url(../images/web-development/website-upgrade.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .web-service-details-img7 {
+    background: url(../images/web-development/performance.svg) no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  
+  .center-services {
+    position: relative;
+    height: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .center-services .img-responsive {
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    align-content: center;
+    position: absolute;
+  }
+
+  /****How we do ****/
+
+  
+.price-table-2 [class*='col-md-'], .price-table-3 [class*='col-md-'] {
+  padding: 0px;
 }
+.price-table-3 .price-table {
+  margin: 60px auto;
+  padding: 0px 0px 20px;
+}
+
+.price-blue {
+  background-color: #a100b5 !important;
+  color: #fff;
+}
+.price-table ul {
+  padding: 0;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.price-table ul li {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+.table-active .price-icon, .price-red .price-icon, .price-blue .price-icon, .price-green .price-icon {
+  border-color: #000;
+  border-bottom-color: #fff;
+}
+
+.price-icon {
+  max-width: 100px;
+  display: inline-block;
+  margin-top: -52px;
+  border: 1px dashed;
+  border-radius: 50%;
+  padding: 12px;
+}
+.price-table h2 {
+  font-weight: 600;
+  font-size: 28px;
+  padding-top: 20px;
+}
+  
+.price-table-1, .price-table-2, .price-table-3 {
+  padding-top: 30px;
+}
+ 
+  
+.price-table-3 .table-active {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+  position: relative;
+  z-index: 10;
+}
+
+.table-active {
+  background-color: #00d4ca !important;
+}
+.price-green {
+  background-color: #4caf50 !important;
+  color: #fff;
+}
+  /***Responsive design css*/
+  
+  @media (max-width:1200px) {
+   
+  }
+  
+  @media (min-width:992px) and (max-width:1199px) {
+  
+    .web-service-details .offir-span {
+      font-size: 14px;
+    }
+    .web-start-breif {
+      margin-bottom: 20px;
+    }
+    .web-image {
+      height: 310px;
+      width: 310px;
+      
+    }
+  
+    h4 {
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+    .sub-head {
+      padding-bottom: 30px;
+    }
+    .web-image {
+      height: 350px;
+      width: 350px;
+    }
+    .web-image .img-responsive {
+      margin-left: 30%;
+      height: 100%
+    }
+    .web-service-details {
+      margin-bottom: 20px;
+    }
+    .why-tenets-image {
+      display: none;
+    }
+    #mob {
+      padding-left: 0;
+    }
+   
+  }
+  
+  @media (max-width: 767px) {
+    .sub-head {
+      padding-bottom: 30px;
+    }
+    .heading-intro>p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .price-table-2 [class*='col-md-'], .price-table-3 [class*='col-md-'] {
+      padding: 1px;
+  }
+  
+    
+    .web-image .img-responsive {
+      height: 100%;
+      margin-left: 10%;
+    }
+    .why-tenets-image {
+      display: none;
+    }
+    h3 {
+      font-size: 24px;
+    }
+    .caption .btn-start {
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .caption>p {
+      padding-top: 0px;
+      font-size: 16px;
+    }
+   
+    .caption .btn-start {
+      margin-left: 28%;
+    }
+    #why-tenets-web {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+   
+  }
+  
+  @media (max-width: 479px) {
+    
+    .category {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin: 10px;
+    }
+    #why-tenets-web {
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    .web-image {
+      height: 250px;
+      width: 250px;
+    }
+    .caption .btn-start {
+      font-size: 14px;
+      font-weight: 600;
+      margin-left: 13%;
+    }
+    .sub-head>p {
+      font-size: 13px;
+    }
+   
+    .web-image .img-responsive {
+      margin-left: -5px;
+      padding: 0;
+    }
+    .web-service-details .offir-span {
+      font-size: 13px;
+    }
+    .web-service-details {
+      width: 100%;
+    }
+    .web-service-details-img1 {
+      height: 50px;
+      width: 50px;
+    }
+    .web-service-details-img2 {
+      height: 50px;
+      width: 50px;
+    }
+    .web-service-details-img3 {
+      height: 50px;
+      width: 50px;
+    }
+    
+    .web-service-details-img5 {
+      height: 50px;
+      width: 50px;
+    }
+    .web-service-details-img6 {
+      height: 50px;
+      width: 50px;
+    }
+    .web-service-details-img7 {
+      height: 50px;
+      width: 50px;
+    }
+     
+    .center-services {
+      display: none;
+    }
+   
+  }
+  

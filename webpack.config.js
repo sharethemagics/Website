@@ -132,6 +132,12 @@ module.exports = {
             filename:'automation.html'
         }),
         new htmlWebPackPlugin({
+            template:'html/bpo-service.html',
+            hash:true,
+            chunks:['vendor','bposervice','commons'],
+            filename:'bpo-service.html'
+        }),
+        new htmlWebPackPlugin({
             template:'html/digital-marketing.html',
             hash:true,
             chunks:['vendor','digitalmarketing','commons'],
