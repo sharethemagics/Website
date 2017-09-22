@@ -2,8 +2,8 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 30px;
   color: #404040;
   position: relative;
 }
@@ -47,9 +47,7 @@ h3 {
 
 /*Website and offerings */
 
-.sub-head p {
-  padding-top: 10%;
-}
+
 
 #bpo-service {
   padding-left: 19%;
@@ -57,10 +55,7 @@ h3 {
   background-color: #f0f2f3;
 }
 
-.web-image {
-  height: 350px;
-  width: 350px;
-}
+
 
 #web-service-offer .web-heading:before {
   height: 2px;
@@ -320,6 +315,13 @@ ul {
 /***Responsive design css*/
 
 @media (min-width:1200px) {
+  .web-image{
+    height:400px;
+    width: 400px;
+  }
+  .sub-head {
+    padding-bottom: 30px;
+  }
   .price-voilet {
     min-height: 320px;
   }
@@ -350,6 +352,9 @@ ul {
 }
 
 @media (min-width:992px) and (max-width:1199px) {
+  .sub-head {
+    padding-bottom: 30px;
+  }
   .web-service-details .offir-span {
     font-size: 14px;
   }
@@ -440,7 +445,10 @@ ul {
 }
 
 @media (max-width: 767px) {
-  
+  .web-image{
+    height:350px;
+    width: 350px;
+  }
   .price-blue p {
     padding-right: 30px;
     padding-left: 30px;
@@ -494,6 +502,11 @@ ul {
   #why-tenets-web {
     margin-bottom: 0px;
     margin-top: 0px;
+  }
+
+  #why-choose-us .why-us{
+    height: 400px;
+    width: 400px;
   }
 }
 

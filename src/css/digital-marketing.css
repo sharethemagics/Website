@@ -37,7 +37,7 @@ h3 {
 
 .fa-fw {
     margin-right: 10px;
-    color: #1DE9B6;
+    color: #6A1B9A;
 }
 
 .heading-intro {
@@ -146,7 +146,7 @@ h3 {
 /*******how email done***/
 
 #how-we-do-email {
-    background: #EEEEEE;
+    
 }
 
 .how-we-right-pane {
@@ -180,7 +180,9 @@ h3 {
     margin-top: 2%;
 }
 
-
+#how-we-do-crm{
+    background: #EEEEEE;
+}
 #how-we-do-crm .web-heading:before {
     height: 2px;
     position: absolute;
@@ -205,7 +207,13 @@ h3 {
 /********how we do social****/
 
 #how-we-do-social {
-    background: #EEEEEE;
+    background: url("../images/digital-marketing/digital-bg.png") ;
+        background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    
 }
 
 .how-we-right-pane {
@@ -241,9 +249,9 @@ h3 {
 
 .category {
     display: inline-block;
-    width: 200px;
-    height: 200px;
-    margin: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 15px;
 }
 
 #technology {

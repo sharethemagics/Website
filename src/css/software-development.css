@@ -33,9 +33,7 @@ h3 {
   font-size: 32px;
 }
 
-h4 {
-  font-size: 24px;
-}
+
 
 .fa-fw {
   margin-right: 10px;
@@ -168,6 +166,8 @@ h4 {
 
 #product-sd {
   background-color: #f0f2f3;
+  line-height: 26px;
+  font-size: 15px;
 }
 
 
@@ -177,12 +177,19 @@ h4 {
   padding-left: 20px;
   padding-top: 15px;
 }
+.custom-sd-image{
+  height: 300px;
+}
 
+#custom-sd{
+  line-height: 26px;
+  font-size: 15px;
+}
 
 /*******Methodology****/
 
 .custom-sd-image .img-responsive {
-  margin: 50px;
+  margin: 30px;
 }
 
 #methodology .web-heading:before {
@@ -288,7 +295,7 @@ h4 {
 
 .category-tech {
   display: inline-block;
-  width: 50px;
+  width: 80px;
   height: 50px;
   margin: 10px;
 }
@@ -337,9 +344,12 @@ h4 {
   }
   .category-tech {
     display: inline-block;
-    width: 40px;
+    width: 60px;
     height: 40px;
     margin: 10px;
+  }
+  .caption .btn-start{
+    margin-left:28%;
   }
 }
 
@@ -363,7 +373,7 @@ h4 {
     height: 600px;
   }
   #product-sd {
-    height: 800px;
+    height: 700px;
   }
   #custom-sd .col-sm-6 {
     height: 750px;
@@ -379,7 +389,7 @@ h4 {
     font-size: 14px;
   }
   .custom-sd-image {
-    height: 400px;
+    height: 300px;
   }
   #custom-sd .custom-sd-image {
     margin-top: 20%;
@@ -401,6 +411,11 @@ h4 {
   .method-sub {
     height: 220px;
   }
+  #product-sd .custom-sd-image {
+    height:350px;
+    width: 400px;
+    margin-left: 5%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -408,8 +423,8 @@ h4 {
     height: 200px;
   }
   #product-sd .custom-sd-image {
-    height: 400px;
+    height:350px;
     width: 400px;
-    margin-left: 10%;
+    margin-left: 5%;
   }
 }
