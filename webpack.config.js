@@ -145,6 +145,7 @@ module.exports = {
         }),
         new CleanWebPackPlugin(__dirname + '/dist'),
         new CopyWebpackPlugin ([{from: 'js/wow.min.js'}]),
+        new CopyWebpackPlugin ([{from: 'images/favicon.ico'}]),
         new webpack.optimize.CommonsChunkPlugin({
 			filename: "commons.js",
 			name: "commons"

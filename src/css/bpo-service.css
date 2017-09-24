@@ -215,9 +215,16 @@ h3 {
 .price-table-3 [class*='col-md-'] {
   padding: 0px;
 }
+.fa-fw {
+  margin-right: 10px;
+  color:#1DE9B6;
+}
 
+.padding{
+  padding-left:25px;
+}
 .price-voilet {
-  background-color: #a100b5 !important;
+  background-color: #9C27B0 !important;
   color: #fff;
   box-shadow: 0 0 2px 2px gray;
   
@@ -337,8 +344,8 @@ ul {
     min-height: 420px;
   }
   .price-blue p {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-size: 15px;
     line-height: 26px;
   }
@@ -393,8 +400,8 @@ ul {
     min-height: 380px;
   }
   .price-blue p {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
    
   }
   .price-green p {
@@ -445,8 +452,8 @@ body {
 }
 
   .price-blue p {
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
    
   }
   .price-green p {

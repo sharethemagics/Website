@@ -260,6 +260,8 @@ h3 {
 .inner-banner-div {
   display: table-cell;
   vertical-align: middle;
+  padding-right:10px;
+  padding-left:10px;
 }
 
 .inner-banner-div>h4 {
@@ -477,7 +479,12 @@ h3 {
   height: 50px;
   margin: 10px;
 }
-
+.category-jquery {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+}
 #technology{
   padding:0;
 }
@@ -770,10 +777,15 @@ h3 {
 }
 
 @media (max-width: 479px) {
-  
   .category {
     display: inline-block;
     width: 40px;
+    height: 40px;
+    margin: 10px;
+  }
+  .category-jquery {
+    display: inline-block;
+    width: 100px;
     height: 40px;
     margin: 10px;
   }

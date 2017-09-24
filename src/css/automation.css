@@ -64,6 +64,13 @@ h3 {
     width: 280px;
 }
 
+.caption{
+   
+    padding-top: 30px;
+}
+.image-sub .caption h3{
+    color:white;
+}
 .sub-head p {
     
     
