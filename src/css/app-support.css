@@ -66,8 +66,7 @@ h3 {
 }
 
 #app-support {
-    padding-left: 19%;
-    padding-right: 19%;
+   
     background-color: #f0f2f3;
 }
 
@@ -419,7 +418,8 @@ h3 {
     }
     .app-support-offer {
         
-          width: 95%;
+          width: 80%;
+          margin-left: 5%;
           
       }
       #app-support{
@@ -435,12 +435,12 @@ h3 {
         margin-left: 0;
     }
     .app-support-offer .offir-span {
-        font-size: 13px;
+        font-size: 12px;
     }
     .caption .btn-start {
         font-size: 14px;
         font-weight: 600;
-        margin-left: 13%;
+        margin-left: 20%;
       }
     .app-support-sub{
        margin-left: 0px;
