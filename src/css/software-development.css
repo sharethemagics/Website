@@ -331,6 +331,10 @@ h3 {
 }
 
 @media (max-width: 575px) {
+  .image-sub .caption h3 {
+    font-size: 16px;
+    font-weight: 300;
+}
   .custom-sd-image {
     display: none;
   }

@@ -216,6 +216,21 @@ img {
 }
 
   @media (max-width: 575px) {
+    .image-sub .caption h3{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .caption .btn-start {
+        color: #404040;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 14px 40px;
+        border-radius: 4px;
+        margin-top: 40px;
+        margin-left: 15%;
+        background: #1DE9B6;
+        box-shadow: 2px 2px 1px #888888;
+    }
        #automation-offer img {
         height: 90px;
         width: 90px;

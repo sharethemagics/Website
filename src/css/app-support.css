@@ -415,18 +415,24 @@ h3 {
 @media (max-width: 479px) {
     .sub-head>p {
         font-size: 13px;
+        line-height: 22px;
     }
     .app-support-offer {
         
           width: 95%;
           
       }
+      #app-support{
+          padding-left: 5px;
+          padding-right:5px;
+
+      }
     .app-support-image {
-        width: 260px;
-        height: 260px;
+        width: 240px;
+        height: 240px;
     }
     .app-support-image .img-responsive {
-        margin-left: 8%;
+        margin-left: 0;
     }
     .app-support-offer .offir-span {
         font-size: 13px;

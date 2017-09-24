@@ -429,8 +429,7 @@ h3 {
 }
 
 .web-left-how {
-  height: 170px;
-  ;
+ 
   padding-bottom: 10px;
 }
 
@@ -777,6 +776,8 @@ h3 {
 }
 
 @media (max-width: 479px) {
+
+  
   .category {
     display: inline-block;
     width: 40px;
@@ -929,4 +930,15 @@ h3 {
   .web-right-how {
     margin-bottom: 10px;
   }
+  .mobile-first{
+    padding-right: 30px!important;
+    padding-left: 0px!important;
+  }
+  .inner-banner-div>h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
+}
 }
