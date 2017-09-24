@@ -44,6 +44,10 @@ h3 {
   opacity: 1;
 }
 
+.image-sub .caption h3{
+  padding-top: 20px;
+  color: white;
+}
 
 /*Website and offerings */
 
@@ -122,7 +126,7 @@ h3 {
 }
 
 .web-service-details-img1 {
-  background: url(../images/web-development/spa.svg) no-repeat;
+  background: url('../images/bpo/bpo-dataentry.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -130,7 +134,7 @@ h3 {
 }
 
 .web-service-details-img2 {
-  background: url(../images/web-development/responsive.svg) no-repeat;
+  background: url('../images/bpo/bpo-dataprocess.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -138,7 +142,7 @@ h3 {
 }
 
 .web-service-details-img3 {
-  background: url(../images/web-development/ecommerce.svg) no-repeat;
+  background: url('../images/bpo/bpo-dataconversion.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -146,7 +150,7 @@ h3 {
 }
 
 .web-service-details-img5 {
-  background: url(../images/web-development/seo.svg) no-repeat;
+  background: url('../images/bpo/bpo-dataclean.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -158,7 +162,7 @@ h3 {
 }
 
 .web-service-details-img6 {
-  background: url(../images/web-development/website-upgrade.svg) no-repeat;
+  background: url('../images/bpo/bpo-techsupport.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -166,7 +170,7 @@ h3 {
 }
 
 .web-service-details-img7 {
-  background: url(../images/web-development/performance.svg) no-repeat;
+  background: url('../images/bpo/bpo-catalog.svg') no-repeat;
   height: 62px;
   width: 62px;
   display: inline-block;
@@ -184,7 +188,7 @@ h3 {
   left: 0;
   top: 0;
   width: 80%;
-  height: 100%;
+  margin-left:50px;
   align-content: center;
   position: absolute;
 }
@@ -192,7 +196,7 @@ h3 {
 
 /****How we do ****/
 
-#how-we-do {}
+
 
 #how-we-do .web-heading:before {
   height: 2px;
@@ -285,14 +289,7 @@ ul {
   padding-top: 30px;
 }
 
-.price-table-3 .table-active {
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-  transform: scale(1.1);
-  position: relative;
-  z-index: 10;
-}
+
 
 #why-choose-us {
   margin-top: 40px;
@@ -316,8 +313,16 @@ ul {
 
 @media (min-width:1200px) {
   .web-image{
-    height:350px;
-    width: 350px;
+    height:40%;
+    width: 40%;
+  }
+  .price-table-3 .table-active {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+    position: relative;
+    z-index: 10;
   }
   .sub-head {
     padding-bottom: 30px;
@@ -352,6 +357,14 @@ ul {
 }
 
 @media (min-width:992px) and (max-width:1199px) {
+  .price-table-3 .table-active {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.1);
+    position: relative;
+    z-index: 10;
+  }
   .sub-head {
     padding-bottom: 30px;
   }
@@ -364,6 +377,7 @@ ul {
   .web-image {
     height: 310px;
     width: 310px;
+    margin-top: 15%;
   }
   h4 {
     margin-bottom: 5px;
@@ -381,42 +395,69 @@ ul {
   .price-blue p {
     padding-right: 40px;
     padding-left: 40px;
-    font-size: 14px;
-    line-height: 26px;
+   
   }
   .price-green p {
     padding-right: 20px;
-    padding-left: 60px;
-    font-size: 14px;
-    line-height: 26px;
+    padding-left: 40px;
+   
   }
   .price-voilet p {
-    padding-right: 60px;
+    padding-right: 40px;
     padding-left: 20px;
-    font-size: 14px;
-    line-height: 26px;
+    
   }
+  
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #404040;
+  position: relative;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+   
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #404040;
+  position: relative;
+}
+
+  .why-us{
+   margin-top: 10%;
+  }
   
+.center-services .img-responsive {
+  left: 0;
+  top: 0;
+  width: 70%;
+  height:70%;
+  margin-left:50px;
+  margin-top:50px;
+  align-content: center;
+  position: absolute;
+}
+
   .price-blue p {
     padding-right: 40px;
     padding-left: 40px;
-    font-size: 14px;
-    line-height: 26px;
+   
   }
   .price-green p {
     padding-right: 20px;
     padding-left: 60px;
-    font-size: 14px;
-    line-height: 26px;
+     
   }
   .price-voilet p {
-    padding-right: 60px;
+    padding-right: 40px;
     padding-left: 20px;
-    font-size: 14px;
-    line-height: 26px;
+     
   }
   .sub-head {
     padding-bottom: 30px;
@@ -445,6 +486,28 @@ ul {
 }
 
 @media (max-width: 767px) {
+   
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #404040;
+  position: relative;
+}
+
+  .center-services .img-responsive {
+    left: 0;
+    top: 0;
+    width: 70%;
+    height:70%;
+    margin-left:50px;
+    margin-top:50px;
+    align-content: center;
+    position: absolute;
+  }
+  .why-us{
+    display: none;
+  }
   .web-image{
     height:310px;
     width: 310px;
@@ -452,20 +515,17 @@ ul {
   .price-blue p {
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 12px;
-    line-height: 22px;
+    
   }
   .price-green p {
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 14px;
-    line-height: 22px;
+     
   }
   .price-voilet p {
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 14px;
-    line-height: 22px;
+  
   }
   .sub-head {
     padding-bottom: 30px;
@@ -512,6 +572,9 @@ ul {
 
 @media (max-width: 479px) {
  
+  .why-us{
+    display: none;
+  }
   .price-blue p {
     padding-right: 30px;
     padding-left: 30px;

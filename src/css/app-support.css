@@ -49,11 +49,16 @@ h3 {
     opacity: 1;
 }
 
+.image-sub .caption h3 {
+    padding-top: 20px;
+    color:white;
+}
+
 
 /*Application support why**/
 
 .sub-head p {
-    padding-top: 10%;
+   
     padding-left: 5%;
     font-size: 15px;
     font-weight: 400;
@@ -80,7 +85,7 @@ h3 {
     margin: 0 auto;
     background: #1DE9B6;
     content: '';
-    width: 40%;
+    width: 30%;
 }
 
 .caption .btn-start {
@@ -161,7 +166,70 @@ h3 {
 }
 
 .app-support-offer-img1 {
-    background: url('../images/web-development/seo.svg') no-repeat;
+    background: url('../images/app-support/ap-incident.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img2 {
+    background: url('../images/app-support/ap-performance.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img3 {
+    background: url('../images/app-support/ap-resiliency.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img4 {
+    background: url('../images/app-support/ap-cr.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img5 {
+    background: url('../images/app-support/ap-minor.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img6 {
+    background: url('../images/app-support/ap-config.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img7 {
+    background: url('../images/app-support/ap-support.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img8 {
+    background: url('../images/app-support/ap-ticket.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img9 {
+    background: url('../images/app-support/ap-bug.svg') no-repeat;
+    height: 62px;
+    width: 62px;
+    display: inline-block;
+    
+}
+.app-support-offer-img10 {
+    background: url('../images/app-support/ap-root.svg') no-repeat;
     height: 62px;
     width: 62px;
     display: inline-block;
@@ -226,13 +294,10 @@ h3 {
     width: 100px;
   }
   #app-support-why-us{
-      background-color: #DFDBDB;
+      background-color: #f0f2f3;
       
   }
-  
-  #app-support-why-us .fa-fw{
-    color:#1D31E9;
-  }
+ 
 
   /****Specilization***/
   #app-support-specialize .web-heading:before {
@@ -260,7 +325,12 @@ h3 {
   .app-support-specialize .fa-fw{
     color:#1D31E9;
   }
-@media (mim-width:1200px) {
+@media (min-width:1200px) {
+    .img-size{
+        height:250px;
+        width:300px;
+    }
+
    
 }
 
@@ -271,6 +341,10 @@ h3 {
     }
     .app-support-sub{
         margin-left: 60px;
+    }
+    .img-size{
+        height:250px;
+        width:300px;
     }
 }
 
