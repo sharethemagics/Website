@@ -392,3 +392,76 @@ padding: 10px 5px 10px 35px;
 
 }
 
+
+
+
+
+
+
+
+
+
+
+/* lg */
+
+@media (min-width: 1200px) {
+	
+}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+	.navbar-right li a {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+
+	.caption .btn-start {
+		font-size: 12px;
+		padding: 10px 30px;
+	}
+	.navbar-brand {
+		padding: 0 15px 15px;
+	}
+	.navbar-toggle {
+		border: 1px solid #fff;
+	}
+	.navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-right li a {
+		font-size: 13px;
+		padding-bottom: 8px;
+		padding-top: 10px;
+	}
+	
+	#contact-us .heading {
+		padding-top: 35px;
+	}
+	
+	
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+
+}

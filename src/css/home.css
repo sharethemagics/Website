@@ -441,8 +441,8 @@ section {
 #about {
   background: #fff;
   color: #333;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   font-weight: 600;
   letter-spacing: 2px;
 }
@@ -660,4 +660,227 @@ ul.address {
   color: #fff;
   border:0;
   margin-top: 40px;
+}
+
+#mail{
+  padding:0;
+}
+
+
+/* lg */
+
+@media (min-width: 1200px) {
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 15px;
+		right: 15px;
+		top: 5px;
+		bottom: 15px;
+		background-color: rgba(71, 74, 73, 0.95);
+		overflow: hidden;
+		transition: .8s ease;
+		width: 91%;
+		height: 0;
+	}
+	.team-sub {
+		margin: auto auto;
+		padding: 15px 15px;
+		width: 330px;
+	
+	}
+	.team-sub:hover .overlay {
+		bottom: 0;
+		height: 94%;
+	}
+}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about .img-responsive {
+		height: 420px;
+	}
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 15px;
+		right: 15px;
+		top: 5px;
+		bottom: 15px;
+		background-color: rgba(71, 74, 73, 0.95);
+		overflow: hidden;
+		width: 91%;
+		height: 0;
+		transition: .8s ease;
+	}
+	.team-sub:hover .overlay {
+		bottom: 0;
+		height: 94%;
+	}
+	.team-sub {
+		margin: auto auto;
+		padding: 15px 15px;
+		width: 330px;
+		position: relative;
+	}
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 8px;
+		right: 15px;
+		top: -2px;
+		bottom: 5px;
+		background-color: rgba(71, 74, 73, 0.95);
+		overflow: hidden;
+		width: 94%;
+		height: 0;
+		transition: .8s ease;
+	}
+	.team-sub:hover .overlay {
+		bottom: 0;
+		height: 98%;
+	}
+	.navbar-right li a {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	.social-icons ul li {
+		margin-bottom: 10px;
+	}
+	
+	.team-sub {
+		margin: auto auto;
+		padding: 8px 8px;
+		width: 260px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+	.overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 8px;
+		right: 15px;
+		top: -2px;
+		bottom: 5px;
+		background-color: rgba(71, 74, 73, 0.95);
+		overflow: hidden;
+		width: 95.5%;
+		height: 0;
+		transition: .8s ease;
+	}
+	.team-sub:hover .overlay {
+		bottom: 0;
+		height: 98.3%;
+	}
+	.team-sub {
+		margin: auto auto;
+		padding: 8px 8px;
+		width: 350px;
+	}
+
+	  
+	#home-slider .caption h1 {
+		font-size: 40px;
+	}
+	#home-slider .caption {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+	.left-control,
+	.right-control {
+		font-size: 20px;
+		height: 30px;
+		line-height: 25px;
+		width: 30px;
+	}
+	#home-slider:hover .right-control {
+		right: 15px;
+	}
+	#home-slider:hover .left-control {
+		left: 15px;
+	}
+	.caption .btn-start {
+		font-size: 12px;
+		padding: 10px 30px;
+	}
+	.navbar-brand {
+		padding: 0 15px 15px;
+	}
+	.navbar-toggle {
+		border: 1px solid #fff;
+	}
+	.navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-right li a {
+		font-size: 13px;
+		padding-bottom: 8px;
+		padding-top: 10px;
+	}
+	/*services*/
+	section {
+		padding: 45px 0;
+	}
+	.heading {
+		font-size: 14px;
+		padding-bottom: 45px;
+	}
+	.heading h2 {
+		font-size: 26px;
+	}
+	
+	.social-icons ul li a {
+		font-size: 14px;
+		height: 30px;
+		line-height: 30px;
+		width: 30px;
+	}
+	.count .col-xs-6 {
+		margin-bottom: 35px;
+	}
+	
+	#contact-us .heading {
+		padding-top: 35px;
+	}
+	
+	
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+
+	#home-slider .caption {
+		font-size: 13px;
+	}
+	#home-slider .caption h1 {
+		font-size: 35px;
+	}
+	.icon-scroll {
+		width: 35px;
+		height: 60px;
+	}
+	.team-sub {
+		margin: auto auto;
+		padding: 8px 8px;
+		width: 260px;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
 }

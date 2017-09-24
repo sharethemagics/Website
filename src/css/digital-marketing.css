@@ -80,9 +80,7 @@ h3 {
 .sub-head p {
     padding-top: 5%;
     padding-left: 5%;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 30px;
+  
 }
 
 .caption .btn-start {
@@ -297,6 +295,19 @@ h3 {
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    #services-offered h4 {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    body{
+        font-size: 15px;
+        line-height: 26px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+}
 
 @media (max-width: 479px) {}

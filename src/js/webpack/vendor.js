@@ -6,5 +6,5 @@ import '../../css/animate.css';
 import '../../js/slicknav.min.js';
 import '../../css/slicknav.min.css';
 
-import '../../css/responsive.css';
+
 import '../../css/navbar-footer.css';

@@ -15,7 +15,7 @@
    version="1.1"
    id="svg9697"
    inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
-   sodipodi:docname="email_mark.svg">
+   sodipodi:docname="email-side.svg">
   <defs
      id="defs9691">
     <clipPath
@@ -74,9 +74,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="273.17962"
-     inkscape:cy="235.69056"
+     inkscape:zoom="5.6"
+     inkscape:cx="201.69627"
+     inkscape:cy="234.21973"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -133,13 +133,14 @@
          d="m 0,0 c -4.047,0 -7.281,-3.312 -7.281,-7.472 v -138.755 c 0,0 3.234,0.216 7.281,0.216 H 9.143 L 229.991,0 Z" />
     </g>
     <g
-       transform="matrix(0.25005708,0,0,-0.30046141,70.562648,169.3967)"
+       transform="matrix(0.25005708,0,0,-0.30046141,70.033481,169.3967)"
        id="g274">
       <path
          inkscape:connector-curvature="0"
          id="path276"
          style="fill:#273942;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="M 0,0 H -4.546 L -225.395,-146.011 H 0 c 4.046,0 7.378,-0.216 7.378,-0.216 V -7.472 C 7.378,-3.312 4.046,0 0,0" />
+         d="M 0,0 H -4.546 L -225.395,-146.011 H 0 c 4.046,0 7.378,-0.216 7.378,-0.216 V -7.472 C 7.378,-3.312 4.046,0 0,0"
+         sodipodi:nodetypes="cccscsc" />
     </g>
     <g
        transform="matrix(0.25005708,0,0,-0.30046141,28.919119,226.0975)"
@@ -448,13 +449,17 @@
          d="m 0,0 h -218.333 c -4.047,0 -7.336,-3.343 -7.336,-7.419 V -126.29 c 0,-4.077 3.289,-7.414 7.336,-7.414 h 0.954 L 0.213,-0.05 C 0.142,-0.048 0.071,0 0,0" />
     </g>
     <g
-       transform="matrix(0.25005708,0,0,-0.30046141,68.691367,172.20752)"
-       id="g414">
-      <path
-         inkscape:connector-curvature="0"
-         id="path416"
-         style="fill:#2aadd3;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         d="m 0,0 -217.567,-133.626 h 217.38 c 4.045,0 7.275,3.337 7.275,7.414 V -7.342 C 7.088,-3.338 3.947,-0.112 0,0" />
+       id="g5030"
+       transform="translate(-0.52278851,-0.00828693)">
+      <g
+         id="g414"
+         transform="matrix(0.25005708,0,0,-0.30046141,68.691367,172.20752)">
+        <path
+           d="m 0,0 -217.567,-133.626 h 217.38 c 4.045,0 7.275,3.337 7.275,7.414 V -7.342 C 7.088,-3.338 3.947,-0.112 0,0"
+           style="fill:#2aadd3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path416"
+           inkscape:connector-curvature="0" />
+      </g>
     </g>
     <g
        transform="matrix(0.25005708,0,0,-0.30046141,31.980113,187.572)"

@@ -316,8 +316,8 @@ ul {
 
 @media (min-width:1200px) {
   .web-image{
-    height:400px;
-    width: 400px;
+    height:350px;
+    width: 350px;
   }
   .sub-head {
     padding-bottom: 30px;
@@ -422,8 +422,8 @@ ul {
     padding-bottom: 30px;
   }
   .web-image {
-    height: 350px;
-    width: 350px;
+    height: 310px;
+    width: 310px;
   }
   .web-image .img-responsive {
     margin-left: 30%;
@@ -446,8 +446,8 @@ ul {
 
 @media (max-width: 767px) {
   .web-image{
-    height:350px;
-    width: 350px;
+    height:310px;
+    width: 310px;
   }
   .price-blue p {
     padding-right: 30px;
