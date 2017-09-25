@@ -1,5 +1,6 @@
 /*Common properties*/
 
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -216,6 +217,10 @@ img {
 }
 
   @media (max-width: 575px) {
+    .caption{
+        
+         padding-top: 15px;
+     }
     .image-sub .caption h3{
         font-size: 14px;
         font-weight: 300;
