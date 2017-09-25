@@ -70,10 +70,6 @@ h3 {
     background-color: #f0f2f3;
 }
 
-.app-support-image {
-    height: 300px;
-    width: 320px;
-}
 
 .app-heading:before {
     height: 2px;
@@ -334,10 +330,7 @@ h3 {
 }
 
 @media (min-width:992px) and (max-width:1199px) {
-    .app-support-image {
-        width: 310px;
-        height: 310px;
-    }
+   
     .app-support-sub{
         margin-left: 60px;
     }
@@ -352,9 +345,7 @@ h3 {
     .sub-head {
         padding-bottom: 30px;
     }
-    .app-support-image .img-responsive {
-        margin-left: 40%;
-    }
+  
     .app-support-offer .offir-span {
         font-size: 13px;
     }
@@ -365,19 +356,20 @@ h3 {
 }
 
 @media (max-width: 767px) {
+    .app-support-image {
+        width: 300px;
+        height: 300px;
+    }
+    .app-support-image .img-responsive {
+        margin-left: 60%;
+    }
     .center-services{
         display: none;
     }
     .sub-head {
         padding-bottom: 30px;
     }
-    .app-support-image {
-        width: 300px;
-        height: 300px;
-    }
-    .app-support-image .img-responsive {
-        margin-left: 20%;
-    }
+   
     .app-support-offer {
         
           width: 58%;
@@ -387,7 +379,7 @@ h3 {
         font-size: 13px;
     }
     .caption .btn-start {
-        margin-left: 28%;
+        margin-left: 30%;
       }
       .app-support-sub{
         margin-left: 0px;
@@ -410,11 +402,22 @@ h3 {
         font-weight: 400;
     }
 }
-
+@media (max-width: 590px) {
+    .app-support-image {
+        width: 300px;
+        height: 300px;
+    }
+    .app-support-image .img-responsive {
+        margin-left: 30%;
+    }
+}
 @media (max-width: 479px) {
+    .app-support-image{
+        display:none;
+    }
     .sub-head>p {
         font-size: 13px;
-        line-height: 22px;
+        line-height: 26px;
     }
     .app-support-offer {
         
@@ -427,20 +430,14 @@ h3 {
           padding-right:5px;
 
       }
-    .app-support-image {
-        width: 240px;
-        height: 240px;
-    }
-    .app-support-image .img-responsive {
-        margin-left: 0;
-    }
+   
     .app-support-offer .offir-span {
         font-size: 12px;
     }
     .caption .btn-start {
         font-size: 14px;
         font-weight: 600;
-        margin-left: 20%;
+        margin-left: 30%;
       }
     .app-support-sub{
        margin-left: 0px;

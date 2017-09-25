@@ -1,5 +1,4 @@
 
-
 /***Common****/
 
 body {
@@ -23,14 +22,15 @@ p {
 }
 
 h3,
-h2,
-h4 {
+h2 {
     color: #333232;
     font-weight: 400;
     line-height: 33px;
     margin-bottom: 5px;
 }
-
+h4{
+    color: #333232;
+}
 h3 {
     font-size: 28px;
 }
@@ -123,10 +123,7 @@ h3 {
     opacity: 1;
 }
 
-#services-offered h4 {
-    font-size: 22px;
-    font-weight: 700;
-}
+
 
 #services-offered .web-heading:before {
     height: 2px;
@@ -281,9 +278,19 @@ h3 {
     transform: scale(1.2, 1.2);
 }
 
-@media (max-width:1200px) {}
+@media (max-width:1200px) {
+    .offer-image .img-responsive{
+        padding:35px;
+     }
+     
+}
 
-@media (min-width:992px) and (max-width:1199px) {}
+@media (min-width:992px) and (max-width:1199px) {
+    .offer-image .img-responsive{
+        padding:35px;
+     }
+     
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
     .img-responsive {
@@ -293,13 +300,19 @@ h3 {
         padding-left: 0;
         margin-top: 50%;
     }
+    .offer-image .img-responsive{
+        padding:0px;;
+     }
 }
 
 @media (max-width: 768px) {
+    .offer-image .img-responsive{
+        padding:10px;
+     }
     #services-offered h4 {
-        font-size: 22px;
-        font-weight: 400;
-        line-height: 26px;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 24px;
     }
     body{
         font-size: 15px;
@@ -311,6 +324,9 @@ h3 {
 }
 
 @media (max-width: 479px) {
+    .offer-image .img-responsive{
+        padding:0px;;
+     }
     #services-offered h4 {
         font-size: 18px;
         font-weight: 400;

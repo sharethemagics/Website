@@ -42,7 +42,7 @@ module.exports = {
                   })
             },
              {
-                test: /\.(gif|png|jpe?g|svg)$/i,
+                test: /\.(svg)$/i,
                 loaders: [
                     'file-loader?name=[name].[ext]&outputPath=images/', {
                       loader: 'image-webpack-loader',
@@ -66,6 +66,12 @@ module.exports = {
                         }
                       }
                     }
+                  ]
+            },
+            {
+                test: /\.(gif|png|jpe?g)$/i,
+                loaders: [
+                    'file-loader?name=[name].[ext]&outputPath=images/'
                   ]
             }, 
             {
