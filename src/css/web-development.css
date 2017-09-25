@@ -776,8 +776,25 @@ h3 {
 }
 
 @media (max-width: 479px) {
-
+  #web-service-offer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .left-how {
+    float: left;
+    text-align: center;
+    min-height: 240px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   
+  .right-how {
+    float: left;
+    text-align: center;
+    min-height: 240px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
   .category {
     display: inline-block;
     width: 40px;
@@ -865,7 +882,7 @@ h3 {
     border-radius: 40px;
     padding: 10px;
     margin: 0 0 10px 0;
-    width: 110%;
+    width: 100%;
     padding-left: 50px;
     position: relative;
   }
@@ -875,8 +892,8 @@ h3 {
     border-radius: 40px;
     padding: 10px;
     margin: 0 0 10px 0;
-    width: 110%;
-    padding-left: 50px;
+    width: 100%;
+    
   }
   .right-how p {
     font-size: 14px;
@@ -936,9 +953,26 @@ h3 {
   }
   .inner-banner-div>h4 {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 10px;
+}
+}
+@media (max-width: 290px) {
+  #web-service-offer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .left-services{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .web-image {
+    height: 210px;
+    width: 210px;
+  }
+  .web-service-details .offir-span {
+    font-size: 12px;
 }
 }

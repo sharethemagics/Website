@@ -333,6 +333,9 @@ h3 {
 }
 
 @media (max-width: 575px) {
+  h3{
+    font-size:23px;
+  }
   .image-sub .caption h3 {
     font-size: 16px;
     font-weight: 300;
@@ -355,7 +358,7 @@ h3 {
     margin: 10px;
   }
   .caption .btn-start{
-    margin-left:28%;
+    margin-left:15%;
   }
 }
 
@@ -364,7 +367,9 @@ h3 {
     display: none;
   }
 
-
+  h3{
+    font-size:24px;
+  }
   .image-container h4 {
     font-size: 18px;
     font-weight: 400;
@@ -375,6 +380,9 @@ h3 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  h3{
+    font-size:26px;
+  }
   #methodology {
     height: 600px;
   }

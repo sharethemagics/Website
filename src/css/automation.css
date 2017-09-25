@@ -22,7 +22,13 @@ h4 {
     line-height: 33px;
     margin-bottom: 15px;
 }
-
+.fa-fw {
+    margin-right: 10px;
+    color:#1DE9B6;
+  }
+  li{
+      list-style: none;
+  }
 h3 {
     font-size: 28px;
 }
@@ -217,8 +223,28 @@ img {
 }
 
   @media (max-width: 575px) {
+
+    #why-choose-us img {
+        height: 220px;
+        width: 220px;
+        margin-top: 10px;
+        margin-right:0px;
+        margin-left:0px;
+
+    }
+    #abt-automation .web-heading:before {
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background: #1DE9B6;
+        content: '';
+        width: 50px;
+    }
     h3{
-        font-size:24px;
+        font-size:22px;
     }
     .caption{
         
@@ -230,9 +256,9 @@ img {
     }
     .caption .btn-start {
         color: #404040;
-        font-size: 16px;
-        font-weight: 600;
-        padding: 14px 40px;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 14px 35px;
         border-radius: 4px;
         margin-top: 40px;
         margin-left: 15%;

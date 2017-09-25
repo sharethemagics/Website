@@ -868,7 +868,9 @@ ul.address {
 /* XS Portrait */
 
 @media (max-width: 479px) {
-
+  .text{
+    font-size:13px;
+  }
 	#home-slider .caption {
 		font-size: 13px;
 	}
@@ -882,8 +884,21 @@ ul.address {
 	.team-sub {
 		margin: auto auto;
 		padding: 8px 8px;
-		width: 260px;
-		margin-left: 25px;
-		margin-right: 25px;
+		width: auto;
+		
+  }
+ 
+  .overlay {
+		position: absolute;
+		bottom: 95%;
+		left: 8px;
+		right: 15px;
+		top: -2px;
+		bottom: 5px;
+		background-color: rgba(71, 74, 73, 0.95);
+		overflow: hidden;
+		width: 94.5%;
+		height: 0;
+		transition: .8s ease;
 	}
 }

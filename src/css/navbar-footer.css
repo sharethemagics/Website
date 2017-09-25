@@ -12,7 +12,7 @@
   top: 100%;
   transition: visibility 0s, opacity 0.8s linear;
   visibility: hidden;
-  width: 210px;
+  width: 220px;
   padding-top: 10px;
   padding-bottom: 10px;
   z-index: 999;
