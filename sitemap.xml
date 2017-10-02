@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://tenetstech.com/</loc>
+  <lastmod>2017-10-02T07:14:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/index.html</loc>
+  <lastmod>2017-10-02T07:14:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/web-development.html</loc>
+  <lastmod>2017-10-02T07:14:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/digital-marketing.html</loc>
+  <lastmod>2017-10-02T07:13:55+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/software-development.html</loc>
+  <lastmod>2017-10-02T07:14:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/bpo-service.html</loc>
+  <lastmod>2017-10-02T07:13:51+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/app-support.html</loc>
+  <lastmod>2017-10-02T07:13:48+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://tenetstech.com/automation.html</loc>
+  <lastmod>2017-10-02T07:13:50+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
