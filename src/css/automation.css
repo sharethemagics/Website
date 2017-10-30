@@ -242,7 +242,7 @@ img {
         margin: 0 auto;
         background: #1DE9B6;
         content: '';
-        width: 50px;
+        width: 100px;
     }
     h3{
         font-size:22px;
@@ -294,14 +294,31 @@ img {
       h3{
         font-size:26px;
     }
+         
+.web-image{
+    padding-left:50px;
+    margin-left:15%;
+}
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
       
+.web-image{
+    padding-left:50px;
+    margin-top:15%;
+}
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
+    .web-image{
+        padding-left:50px;
+        margin-top:10%;
+    }
   }
 
   @media (min-width: 1200px) {
+    .web-image{
+        padding-left:50px;
+        margin-top:5%;
+    }
   }

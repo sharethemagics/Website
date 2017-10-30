@@ -178,9 +178,7 @@ h3 {
   padding-left: 20px;
   padding-top: 15px;
 }
-.custom-sd-image{
-  height: 300px;
-}
+
 
 #custom-sd{
   line-height: 26px;
@@ -190,7 +188,8 @@ h3 {
 /*******Methodology****/
 
 .custom-sd-image .img-responsive {
-  margin: 30px;
+  margin: 10px;
+  height:90%;
 }
 
 #methodology .web-heading:before {
@@ -202,12 +201,14 @@ h3 {
   margin: 0 auto;
   background: #1DE9B6;
   content: '';
-  width: 180px;
+  width: 70px;
 }
 
 
 /**** why tenets ***/
-
+.wrapper-pad{
+  padding-bottom: 20px;
+}
 #why-tenets-web .web-heading:before {
   height: 2px;
   position: absolute;
@@ -378,18 +379,25 @@ h3 {
   .why-tenets-image {
     display: none;
   }
+  .web-heading{
+    font-size: 24px;
+  }
+ .web-heading{
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .why-tenets-image {
+    display: none;
+  }
   h3{
     font-size:26px;
   }
   #methodology {
     height: 600px;
   }
-  #product-sd {
-    height: 700px;
-  }
+
   #custom-sd .col-sm-6 {
     height: 750px;
   }
@@ -404,7 +412,7 @@ h3 {
     font-size: 14px;
   }
   .custom-sd-image {
-    height: 300px;
+    height: 250px;
   }
   #custom-sd .custom-sd-image {
     margin-top: 20%;
@@ -417,6 +425,12 @@ h3 {
   .method-sub {
     height: 180px;
   }
+  .web-heading{
+    font-size: 24px;
+  }
+ .web-heading{
+    font-size: 24px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -427,9 +441,16 @@ h3 {
     height: 220px;
   }
   #product-sd .custom-sd-image {
-    height:350px;
+    height:300px;
     width: 400px;
     margin-left: 5%;
+    height: 80%
+  }
+  .web-heading{
+    font-size: 24px;
+  }
+ .web-heading{
+    font-size: 24px;
   }
 }
 
@@ -438,8 +459,14 @@ h3 {
     height: 200px;
   }
   #product-sd .custom-sd-image {
-    height:350px;
+    height:300px;
     width: 400px;
     margin-left: 5%;
+  }
+  #why-tenets-web .web-heading{
+    font-size: 26px;
+  }
+  #app-support-specialize .web-heading{
+    font-size: 26px;
   }
 }

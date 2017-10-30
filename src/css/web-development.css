@@ -77,7 +77,7 @@ h3 {
   margin: 0 auto;
   background: #1DE9B6;
   content: '';
-  width: 40%;
+  width: 20%;
 }
 
 #technology .web-heading:before {
@@ -282,7 +282,8 @@ h3 {
 }
 
 .why-tenets-image {
-  margin-top: 45px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .point_img {

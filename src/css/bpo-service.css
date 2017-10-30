@@ -320,8 +320,8 @@ ul {
 
 @media (min-width:1200px) {
   .web-image{
-    height:40%;
-    width: 40%;
+    height:35%;
+    width: 35%;
   }
   .price-table-3 .table-active {
     -webkit-transform: scale(1.2);
@@ -341,7 +341,7 @@ ul {
     min-height: 320px;
   }
   .price-blue {
-    min-height: 420px;
+    min-height: 380px;
   }
   .price-blue p {
     padding-right: 20px;
@@ -381,11 +381,11 @@ ul {
   .web-start-breif {
     margin-bottom: 20px;
   }
-  .web-image {
-    height: 310px;
-    width: 310px;
-    margin-top: 15%;
+  .web-image{
+    height:35%;
+    width: 35%;
   }
+  
   h4 {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -470,8 +470,9 @@ body {
     padding-bottom: 30px;
   }
   .web-image {
-    height: 310px;
-    width: 310px;
+    height: 60%;
+    width: 60%;
+    margin-left: 5%
   }
   .web-image .img-responsive {
     margin-left: 30%;
